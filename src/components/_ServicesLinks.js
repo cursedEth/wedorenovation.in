@@ -41,7 +41,7 @@ const ServicesLinks = () => {
             title="Interior & Exterior Decoration"
           >
             <BiChevronRight />
-            interior & exterior decoration
+            decoration
           </Link>
         </li>
 

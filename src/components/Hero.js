@@ -48,8 +48,14 @@ const Wrapper = styled.section`
     font-size: 4rem;
     line-height: 1.2;
 
-    @media (max-width: 592px) {
+    @media (max-width: 615px) {
       font-size: 3rem;
+    }
+    @media (max-width: 481px) {
+      font-size: 2.75rem;
+    }
+    @media (max-width: 427px) {
+      font-size: 2.25rem;
     }
 
     span {
@@ -63,7 +69,7 @@ const Wrapper = styled.section`
     max-width: 30rem;
     line-height: 1.25;
 
-    @media (max-width: 592px) {
+    @media (max-width: 615px) {
       font-size: 1rem;
     }
   }
@@ -73,6 +79,10 @@ const Wrapper = styled.section`
     font-weight: 600;
     outline: 3px solid var(--clr-primary);
     outline-offset: 5px;
+
+    @media (max-width: 481px) {
+      padding: 0.5rem 1rem;
+    }
 
     svg {
       vertical-align: middle;

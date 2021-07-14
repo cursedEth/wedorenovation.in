@@ -4,43 +4,66 @@ import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 
 const TopAlert = () => {
+  // state
+  const [shouldFix, setShouldFix] = useState(false);
+
   // data from context
   const { isAlertOpen, closeAlert } = useGlobalContext();
+
+  // scroll function
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 48) {
+      setShouldFix(true);
+    } else {
+      setShouldFix(false);
+    }
+  });
 
   // jsx
   return (
     <Wrapper>
-      <section className={`${isAlertOpen ? 'container' : 'close-top-alert'}`}>
-        <p>Book a free site visit. Call us at &nbsp;</p>
-        <a href="tel:8800805388" className="link" title="Call Us Now!">
-          8800805388
-        </a>
-      </section>
+      <section
+        className={`${isAlertOpen ? 'container' : 'close-top-alert'} ${
+          shouldFix ? 'fixed' : ''
+        }`}
+      >
+        <div>
+          <p>
+            Book a free site visit. Call us at &nbsp;
+            <a href="tel:8800805388" className="link" title="Call Us Now!">
+              8800805388
+            </a>
+          </p>
+        </div>
 
-      <span className="close-alert" onClick={closeAlert}>
-        <FaTimes />
-      </span>
+        <span className="close-alert" onClick={closeAlert}>
+          <FaTimes />
+        </span>
+      </section>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.section`
-  position: relative;
-
   .container {
     background: var(--clr-primary);
     height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    place-items: center;
+  }
+
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: var(--shadow-4);
   }
 
   .close-alert {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 1rem;
-    transform: translateY(-50%);
+    margin-right: 1rem;
     svg {
       vertical-align: middle;
       color: var(--grey-3);

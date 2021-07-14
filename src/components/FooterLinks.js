@@ -11,7 +11,7 @@ const FooterLinks = () => {
       <div className="section-center">
         <article className="info-container">
           <Logo />
-          <p>Spreading smiles since 1969</p>
+          <p>No Compromise & Best Quality works since 1960</p>
         </article>
 
         <article className="links-container">
@@ -44,8 +44,13 @@ const Wrapper = styled.section`
     }
   }
 
-  .info-container .logo {
-    margin-bottom: 1rem;
+  .info-container {
+    .logo {
+      margin-bottom: 1rem;
+    }
+    p {
+      max-width: 18rem;
+    }
   }
 
   .links-container {
@@ -57,7 +62,7 @@ const Wrapper = styled.section`
     }
 
     @media (min-width: 1170px) {
-      gap: 3rem;
+      gap: 4rem;
     }
   }
 `;

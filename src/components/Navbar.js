@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
@@ -8,84 +8,52 @@ import { useGlobalContext } from '../context';
 
 const Navbar = () => {
   // data from context
-  const { openSidebar, isAlertOpen } = useGlobalContext();
-
-  // state
-  const [shouldFixNav, setShouldFixNav] = useState(false);
-
-  // functions to fix the nav
-  window.addEventListener('scroll', () => {
-    if (isAlertOpen) {
-      if (window.pageYOffset > 48) {
-        return setShouldFixNav(true);
-      } else {
-        setShouldFixNav(false);
-      }
-    } else {
-      if (window.pageYOffset > 80) {
-        return setShouldFixNav(true);
-      } else {
-        setShouldFixNav(false);
-      }
-    }
-  });
+  const { openSidebar } = useGlobalContext();
 
   // jsx
   return (
     <NavContainer>
-      <nav className={`nav ${shouldFixNav ? 'nav-fixed' : ''}`}>
-        <div className="nav-center">
-          {/* nav-header */}
-          <div className="nav-header">
-            <Logo />
-            <button type="button" className="nav-btn" onClick={openSidebar}>
-              <FaBars />
-            </button>
-          </div>
-
-          {/* nav-links */}
-          <ul className="nav-links">
-            <li>
-              <Link to="/" className="link">
-                home
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="link">
-                about
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/12" className="link">
-                services
-              </Link>
-            </li>
-          </ul>
-
-          {/* contact-btn */}
-          <ContactBtn />
+      <div className="nav-center">
+        {/* nav-header */}
+        <div className="nav-header">
+          <Logo />
+          <button type="button" className="nav-btn" onClick={openSidebar}>
+            <FaBars />
+          </button>
         </div>
-      </nav>
+
+        {/* nav-links */}
+        <ul className="nav-links">
+          <li>
+            <Link to="/" className="link">
+              home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="link">
+              about
+            </Link>
+          </li>
+          <li>
+            <Link to="/services/12" className="link">
+              services
+            </Link>
+          </li>
+        </ul>
+
+        {/* contact-btn */}
+        <ContactBtn />
+      </div>
     </NavContainer>
   );
 };
 
-const NavContainer = styled.div`
-  .nav {
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    background: var(--clr-secondary);
-    padding: 0 1rem;
-  }
-
-  .nav-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: var(--shadow-4);
-  }
+const NavContainer = styled.nav`
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: var(--clr-secondary);
+  padding: 0 1rem;
 
   .nav-center {
     display: flex;
