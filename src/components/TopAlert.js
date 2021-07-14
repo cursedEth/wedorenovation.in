@@ -11,10 +11,10 @@ const TopAlert = () => {
     <Wrapper>
       <div className={`${isAlertOpen ? 'section-center' : 'close-top-alert'}`}>
         <article>
-          <p>Call us at</p>
           <span>
             <FaPhoneAlt />
           </span>
+          <p>Call us at</p>
           <a href="tel:8800805388" className="link">
             8800805388
           </a>
@@ -25,10 +25,10 @@ const TopAlert = () => {
         </article>
 
         <article>
-          <p>Email us at</p>
           <span>
             <FaEnvelope />
           </span>
+          <p>Email us at</p>
           <a href="mailto:sameerathomerenovation@gmail.com" className="link">
             sameerathomerenovation@gmail.com
           </a>
@@ -110,9 +110,6 @@ const Wrapper = styled.section`
     article {
       p {
         display: block;
-      }
-      svg {
-        display: none;
       }
     }
   }

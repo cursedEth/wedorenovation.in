@@ -109,6 +109,7 @@ const SidebarContainer = styled.aside`
     padding: 1rem 1.5rem;
     background: var(--clr-secondary);
     height: 5rem;
+    border-bottom: 4px solid var(--clr-primary);
 
     .sidebar-btn {
       align-self: center;
