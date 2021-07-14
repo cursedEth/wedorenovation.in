@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../assets/logo.svg';
+import ContactBtn from './ContactBtn';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
@@ -16,7 +17,7 @@ const Navbar = () => {
         {/* nav-header */}
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="homemakers" />
+            <img src={logo} alt="homemakers" className="logo" />
           </Link>
           <button type="button" className="nav-btn" onClick={openSidebar}>
             <FaBars />
@@ -43,9 +44,7 @@ const Navbar = () => {
         </ul>
 
         {/* contact-btn */}
-        <Link to="/contact" className="btn contact-btn link">
-          Contact
-        </Link>
+        <ContactBtn />
       </div>
     </NavContainer>
   );
@@ -100,12 +99,6 @@ const NavContainer = styled.nav`
   }
 
   .contact-btn {
-    background: transparent;
-    border: 2px solid var(--clr-primary);
-    padding: 0.5rem 1.5rem;
-    &:hover {
-      background: var(--clr-primary);
-    }
     display: none;
   }
 
