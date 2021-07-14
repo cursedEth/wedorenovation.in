@@ -72,11 +72,6 @@ const SidebarContainer = styled.aside`
     }
   }
 
-  .contact-btn {
-    background: var(--clr-primary);
-    margin: 0 auto;
-  }
-
   .sidebar {
     position: fixed;
     top: 0;

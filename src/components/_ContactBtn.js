@@ -14,11 +14,14 @@ const ContactBtn = () => {
 
 const Wrapper = styled.div`
   .contact-btn {
-    background: transparent;
+    background: var(--clr-secondary);
     border: 2px solid var(--clr-primary);
     padding: 0.4rem 1.5rem;
+    margin: 0 auto;
+
     &:hover {
       background: var(--clr-primary);
+      border-color: var(--clr-secondary);
     }
   }
 `;

@@ -91,12 +91,13 @@ const NavContainer = styled.nav`
     gap: 3rem;
 
     .link {
-      color: var(--white);
+      color: var(--grey-4);
+      text-transform: capitalize;
       font-size: 1.25rem;
       letter-spacing: var(--letterSpacing);
       padding: 0.5rem;
       &:hover {
-        color: var(--grey-4);
+        color: var(--white);
       }
     }
   }
