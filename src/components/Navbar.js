@@ -3,8 +3,13 @@ import styled from 'styled-components';
 import logo from '../assets/logo.svg';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useGlobalContext } from '../context';
 
 const Navbar = () => {
+  // data from context
+  const { openSidebar } = useGlobalContext();
+
+  // jsx
   return (
     <NavContainer>
       <div className="nav-center">
@@ -13,7 +18,7 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="homemakers" />
           </Link>
-          <button type="button" className="nav-btn">
+          <button type="button" className="nav-btn" onClick={openSidebar}>
             <FaBars />
           </button>
         </div>
