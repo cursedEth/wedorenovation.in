@@ -45,7 +45,6 @@ const TopAlert = () => {
 const Wrapper = styled.section`
   background: var(--clr-primary);
   text-align: center;
-  padding: 0 1rem;
   position: relative;
 
   .close-alert {
@@ -63,7 +62,6 @@ const Wrapper = styled.section`
   .section-center {
     padding: 0.25rem;
     max-width: 992px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -79,7 +77,7 @@ const Wrapper = styled.section`
     gap: 0.25rem;
     color: var(--black);
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
 
     p {
       margin-bottom: 0;
@@ -95,6 +93,7 @@ const Wrapper = styled.section`
       color: var(--black);
       text-decoration: underline;
       text-transform: lowercase;
+      font-weight: bold;
     }
 
     @media (max-width: 660px) {

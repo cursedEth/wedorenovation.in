@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/logo.svg';
 import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
+import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
 
 const Sidebar = () => {
@@ -16,9 +16,7 @@ const Sidebar = () => {
       <aside className={`sidebar ${isSidebarOpen ? 'show-sidebar' : ''}`}>
         {/* header */}
         <header className="sidebar-header">
-          <Link to="/">
-            <img src={logo} alt="homemakers" className="logo" />
-          </Link>
+          <Logo />
           <button type="button" className="sidebar-btn" onClick={closeSidebar}>
             <FaTimes />
           </button>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/logo.svg';
+import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -16,9 +16,7 @@ const Navbar = () => {
       <div className="nav-center">
         {/* nav-header */}
         <div className="nav-header">
-          <Link to="/">
-            <img src={logo} alt="homemakers" className="logo" />
-          </Link>
+          <Logo />
           <button type="button" className="nav-btn" onClick={openSidebar}>
             <FaBars />
           </button>
