@@ -10,7 +10,7 @@ const TopAlert = () => {
   return (
     <Wrapper>
       <div className={`${isAlertOpen ? 'section-center' : 'close-top-alert'}`}>
-        <p>Book a free visit. Call us at &nbsp;</p>
+        <p>Book a free site visit. Call us at &nbsp;</p>
         <a href="tel:8800805388" className="link">
           8800805388
         </a>

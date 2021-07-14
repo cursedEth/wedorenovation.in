@@ -10,51 +10,74 @@ const ServicesLinks = () => {
 
       <ul className="links">
         <li>
-          <Link to="/services/renovation" className="link">
+          <Link to="/services/renovation" className="link" title="Renovation">
             <BiChevronRight />
             renovation
           </Link>
         </li>
 
         <li>
-          <Link to="/services/painting" className="link">
+          <Link to="/services/painting" className="link" title="Painting">
             <BiChevronRight />
             painting
           </Link>
         </li>
 
         <li>
-          <Link to="/services/construction" className="link">
+          <Link
+            to="/services/construction"
+            className="link"
+            title="Construction"
+          >
             <BiChevronRight />
             construction
           </Link>
         </li>
 
         <li>
-          <Link to="/services/decoration" className="link">
+          <Link
+            to="/services/decoration"
+            className="link"
+            title="Interior & Exterior Decoration"
+          >
             <BiChevronRight />
             interior & exterior decoration
           </Link>
         </li>
 
         <li>
-          <Link to="/services/remodeling-designing" className="link">
+          <Link
+            to="/services/remodeling-designing"
+            className="link"
+            title="Remodeling & Designing"
+          >
             <BiChevronRight />
             remodeling & designing
           </Link>
         </li>
 
         <li>
-          <Link to="/services/aluminium-glass-metal" className="link">
+          <Link
+            to="/services/aluminium-glass-metal"
+            className="link"
+            title="Aluminum, Glass & Metal Works"
+          >
             <BiChevronRight />
-            aluminium, glass & metal works
+            aluminium, glass & metal
           </Link>
         </li>
 
         <li>
-          <Link to="/services/wood-work" className="link">
+          <Link to="/services/wood-work" className="link" title="Wood Works">
             <BiChevronRight />
             wood work
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/services/plumbing" className="link" title="Plumbing">
+            <BiChevronRight />
+            plumbing
           </Link>
         </li>
       </ul>

@@ -10,14 +10,14 @@ const AboutLinks = () => {
 
       <ul className="links">
         <li>
-          <Link to="/about" className="link">
+          <Link to="/about" className="link" title="About Us">
             <BiChevronRight />
             who we are
           </Link>
         </li>
 
         <li>
-          <Link to="/faqs" className="link">
+          <Link to="/faqs" className="link" title="Frequently Asked Questions">
             <BiChevronRight />
             FAQs
           </Link>
@@ -29,7 +29,7 @@ const AboutLinks = () => {
             target="_blank"
             rel="noreferrer"
             className="link"
-            title="Our Google-Business Page"
+            title="Visit Google-Business Page"
           >
             <BiChevronRight />
             g-business page
