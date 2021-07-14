@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../assets/logo.svg';
-import ContactBtn from './ContactBtn';
+import ContactBtn from './_ContactBtn';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';

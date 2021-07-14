@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
-import ContactBtn from './ContactBtn';
+import ContactBtn from './_ContactBtn';
 
 const Sidebar = () => {
   // data from context
