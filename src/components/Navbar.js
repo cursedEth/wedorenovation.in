@@ -84,7 +84,7 @@ const NavContainer = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: var(--shadow-2);
+    box-shadow: var(--shadow-4);
   }
 
   .nav-center {

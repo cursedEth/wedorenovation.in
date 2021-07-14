@@ -13,7 +13,8 @@ html {
   --primary-2: #abdfe3;
   --primary-3: #80ced6;
   --primary-4: #56bec8;
-  --primary-5: #2caeba;
+  /* --primary-5: #2caeba; */
+  --primary-5: #146ce7;
   --primary-6: #238b95;
   --primary-7: #1a6870;
   --primary-8: #12464a;
@@ -37,7 +38,8 @@ html {
   --green-dark: #0f5132;
 
   /** specific colors for this one */
-  --clr-primary: #2caeba;
+  /* --clr-primary: #2caeba; */
+  --clr-primary: #146ce7;
   --clr-secondary: #181d31;
 
   /*- set colors  */
@@ -65,7 +67,7 @@ html {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.3),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 

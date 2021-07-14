@@ -12,7 +12,7 @@ const TopAlert = () => {
     <Wrapper>
       <section className={`${isAlertOpen ? 'container' : 'close-top-alert'}`}>
         <p>Book a free site visit. Call us at &nbsp;</p>
-        <a href="tel:8800805388" className="link">
+        <a href="tel:8800805388" className="link" title="Call Us Now!">
           8800805388
         </a>
       </section>
@@ -43,18 +43,19 @@ const Wrapper = styled.section`
     transform: translateY(-50%);
     svg {
       vertical-align: middle;
-      color: var(--grey-9);
+      color: var(--grey-3);
     }
   }
 
   p {
     margin-bottom: 0;
+    color: var(--white);
   }
 
   .link {
-    color: var(--black);
+    color: var(--white);
     text-decoration: underline;
-    font-weight: bold;
+    letter-spacing: var(--letterSpacing);
   }
 
   .close-top-alert {
