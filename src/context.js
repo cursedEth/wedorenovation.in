@@ -4,18 +4,26 @@ const AppContext = React.createContext();
 
 export const AppProvider = ({ children }) => {
   //* SETTING UP STATES
+  const [isAlertOpen, setIsAlertOpen] = useState(true);
+
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   //*FUNCTIONS
-  const openSidebar = () => {
-    setIsSidebarOpen(true);
-  };
-  const closeSidebar = () => {
-    setIsSidebarOpen(false);
-  };
+  const closeAlert = () => setIsAlertOpen(false);
+  const openSidebar = () => setIsSidebarOpen(true);
+  const closeSidebar = () => setIsSidebarOpen(false);
 
+  // *RETURNS
   return (
-    <AppContext.Provider value={{ isSidebarOpen, openSidebar, closeSidebar }}>
+    <AppContext.Provider
+      value={{
+        isAlertOpen,
+        closeAlert,
+        isSidebarOpen,
+        openSidebar,
+        closeSidebar,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

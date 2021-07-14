@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
+import { useGlobalContext } from '../context';
 
 const TopAlert = () => {
-  // state
-  const [isAlertOpen, setIsAlertOpen] = useState(true);
+  // data from context
+  const { isAlertOpen, closeAlert } = useGlobalContext();
 
   // jsx
   return (
     <Wrapper>
-      <div className={`${isAlertOpen ? 'section-center' : 'close-top-alert'}`}>
+      <section className={`${isAlertOpen ? 'container' : 'close-top-alert'}`}>
         <p>Book a free site visit. Call us at &nbsp;</p>
         <a href="tel:8800805388" className="link">
           8800805388
         </a>
-      </div>
+      </section>
 
-      <span className="close-alert" onClick={() => setIsAlertOpen(false)}>
+      <span className="close-alert" onClick={closeAlert}>
         <FaTimes />
       </span>
     </Wrapper>
@@ -24,9 +25,15 @@ const TopAlert = () => {
 };
 
 const Wrapper = styled.section`
-  background: var(--clr-primary);
-  text-align: center;
   position: relative;
+
+  .container {
+    background: var(--clr-primary);
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .close-alert {
     cursor: pointer;
@@ -40,21 +47,14 @@ const Wrapper = styled.section`
     }
   }
 
-  .section-center {
-    padding: 0.25rem;
-    max-width: 992px;
-    display: flex;
-    justify-content: center;
+  p {
+    margin-bottom: 0;
+  }
 
-    p {
-      margin-bottom: 0;
-    }
-
-    .link {
-      color: var(--black);
-      text-decoration: underline;
-      font-weight: bold;
-    }
+  .link {
+    color: var(--black);
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .close-top-alert {
