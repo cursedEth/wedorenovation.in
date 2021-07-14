@@ -4,6 +4,7 @@ import logo from '../assets/logo.svg';
 import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
+import ContactBtn from './ContactBtn';
 
 const Sidebar = () => {
   // data from context
@@ -22,13 +23,62 @@ const Sidebar = () => {
             <FaTimes />
           </button>
         </header>
-        <hr />
+
+        {/* sidebar-links */}
+        <ul className="sidebar-links">
+          <li>
+            <Link to="/" className="link">
+              home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="link">
+              about
+            </Link>
+          </li>
+          <li>
+            <Link to="/services/12" className="link">
+              services
+            </Link>
+          </li>
+        </ul>
+
+        {/* Contact-btn */}
+        <ContactBtn />
       </aside>
     </SidebarContainer>
   );
 };
 
 const SidebarContainer = styled.aside`
+  text-align: center;
+
+  .sidebar-links {
+    margin-bottom: 2rem;
+  }
+
+  .link {
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 1.25rem;
+    letter-spacing: var(--letterSpacing);
+    display: block;
+    font-weight: bold;
+    color: var(--clr-primary);
+    background: var(--grey-1);
+
+    &:hover {
+      background: var(--clr-primary);
+      color: var(--white);
+      border-left: 4px solid var(--clr-secondary);
+    }
+  }
+
+  .contact-btn {
+    background: var(--clr-primary);
+    margin: 0 auto;
+  }
+
   .sidebar {
     position: fixed;
     top: 0;
@@ -46,11 +96,17 @@ const SidebarContainer = styled.aside`
     z-index: 999;
   }
 
+  @media screen and (min-width: 992px) {
+    .sidebar {
+      display: none;
+    }
+  }
+
   .sidebar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background: var(--clr-secondary);
     height: 5rem;
 
@@ -67,6 +123,7 @@ const SidebarContainer = styled.aside`
       }
       &:hover {
         color: rgb(194, 14, 14);
+        transform: scale(1.1);
       }
     }
   }

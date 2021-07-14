@@ -75,9 +75,13 @@ const NavContainer = styled.nav`
       cursor: pointer;
       background: transparent;
       border: none;
+      transition: var(--transition);
       svg {
         font-size: 2rem;
         color: var(--white);
+      }
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }
@@ -89,11 +93,12 @@ const NavContainer = styled.nav`
     gap: 3rem;
 
     .link {
-      color: white;
+      color: var(--white);
       font-size: 1.25rem;
-
+      letter-spacing: var(--letterSpacing);
+      padding: 0.5rem;
       &:hover {
-        color: var(--clr-primary);
+        color: var(--grey-4);
       }
     }
   }
