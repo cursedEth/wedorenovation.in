@@ -125,7 +125,7 @@ h5 {
   font-size: 0.9rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 792px) {
   h1 {
     font-size: 3rem;
   }
@@ -297,8 +297,14 @@ img {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
+@media (min-width: 792px) {
+  .section {
+    padding: 5rem 0;
+  }
+}
+
 .section-center {
   width: 90vw;
   margin: 0 auto;

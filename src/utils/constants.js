@@ -110,6 +110,6 @@ export const contactLinks = [
     url: 'mailto:sameerathomerenovation@gmail.com',
     title: 'Email Personal',
     icon: <FaRegEnvelope />,
-    text: 'wedohomerenovation@gmail.com',
+    text: 'sameerathomerenovation@gmail.com',
   },
 ];
