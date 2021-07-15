@@ -7,7 +7,7 @@ const Info = () => {
     <Wrapper className="section">
       <div className="section-center">
         {/* info */}
-        <article className="info">
+        <article className="info-container">
           <h2>want to get your favourite place renovated?</h2>
           <p>
             We have been the best <strong>Painting</strong>,{' '}
@@ -41,18 +41,24 @@ const Wrapper = styled.section`
   .section-center {
     display: grid;
     place-items: center;
-    gap: 3rem;
+    gap: 1rem;
 
     @media (min-width: 792px) {
-      grid-template-columns: 1fr auto;
+      grid-template-columns: 1fr 1fr;
 
       .img-container {
         display: block;
       }
+
+      .info-container {
+        text-align: left;
+      }
     }
   }
 
-  .info {
+  .info-container {
+    text-align: center;
+
     h2 {
       margin-bottom: 2rem;
     }

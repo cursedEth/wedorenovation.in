@@ -11,7 +11,7 @@ const FooterLinks = () => {
       <div className="section-center">
         <article className="info-container">
           <Logo />
-          <p>No Compromise & Best Quality works since 1960</p>
+          <p>No Compromise Best Quality works since 1960</p>
         </article>
 
         <article className="links-container">
