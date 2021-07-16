@@ -17,11 +17,14 @@ const Contact = () => {
             us an email and we'll get back to you within 24 hours.
           </p>
           <ul className="contact-links">
-            {links.map(({ id, title, text }) => {
+            {links.map(({ id, icon, title, text }) => {
               return (
                 <li key={id}>
                   <h5>
-                    <span>{title}</span>: {text}
+                    <span>
+                      {icon} {title}:
+                    </span>{' '}
+                    {text}
                   </h5>
                 </li>
               );
@@ -60,9 +63,14 @@ const Wrapper = styled.section`
       border: 1px solid;
       border-bottom: none;
       padding: 0.5rem 1rem;
+      text-align: left;
 
       &:last-child {
         border: 1px solid;
+      }
+
+      svg {
+        vertical-align: middle;
       }
     }
     h5 {
@@ -82,7 +90,7 @@ const Wrapper = styled.section`
     iframe {
       border: none;
       border-radius: var(--borderRadius);
-      box-shadow: var(--shadow-3);
+      box-shadow: var(--shadow-1);
       min-height: 21rem;
       width: 100%;
     }
