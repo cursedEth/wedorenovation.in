@@ -1,20 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { BiChevronRight } from 'react-icons/bi';
 import { servicesLinks as links } from '../utils/constants';
 
 const ServicesLinks = () => {
   return (
     <Wrapper>
-      <h4>services</h4>
+      <h5>services</h5>
 
       <ul className="links">
         {links.map(({ id, url, title, text }) => {
           return (
             <li key={id}>
               <Link to={url} className="link" title={title}>
-                <BiChevronRight />
                 {text}
               </Link>
             </li>

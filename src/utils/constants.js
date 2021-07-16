@@ -45,9 +45,9 @@ export const servicesLinks = [
   },
   {
     id: 4,
-    text: 'decoration',
-    url: '/services/decoration',
-    title: 'Interior & Exterior Decoration',
+    text: 'waterproofing',
+    url: '/services/waterproofing',
+    title: 'Water & Heat Proofing',
   },
   {
     id: 5,
@@ -72,6 +72,12 @@ export const servicesLinks = [
     text: 'plumbing',
     url: '/services/plumbing',
     title: 'plumbing',
+  },
+  {
+    id: 9,
+    text: 'decoration',
+    url: '/services/decoration',
+    title: 'Interior & Exterior Decoration',
   },
 ];
 

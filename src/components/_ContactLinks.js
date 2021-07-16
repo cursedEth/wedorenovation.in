@@ -5,7 +5,7 @@ import { contactLinks as links } from '../utils/constants';
 const ContactLinks = () => {
   return (
     <Wrapper>
-      <h4>Contact</h4>
+      <h5>Contact</h5>
 
       <ul className="links">
         {links.map(({ id, url, title, icon, text }) => {

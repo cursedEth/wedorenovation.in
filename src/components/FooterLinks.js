@@ -50,6 +50,7 @@ const Wrapper = styled.section`
     }
     p {
       max-width: 18rem;
+      color: var(--grey-4);
     }
   }
 
@@ -63,6 +64,10 @@ const Wrapper = styled.section`
 
     @media (min-width: 1170px) {
       gap: 4rem;
+    }
+
+    h5 {
+      text-transform: uppercase;
     }
   }
 `;

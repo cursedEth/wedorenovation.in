@@ -1,26 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { BiChevronRight } from 'react-icons/bi';
 import { aboutLinks as links } from '../utils/constants';
 
 const AboutLinks = () => {
   return (
     <Wrapper>
-      <h4>about</h4>
+      <h5>about</h5>
 
       <ul className="links">
         {/* router links */}
         <li>
           <Link to="/about" className="link" title="About Us">
-            <BiChevronRight />
+            {/* <BiChevronRight /> */}
             who we are
           </Link>
         </li>
 
         <li>
           <Link to="/faqs" className="link" title="Frequently Asked Questions">
-            <BiChevronRight />
+            {/* <BiChevronRight /> */}
             FAQs
           </Link>
         </li>
@@ -36,7 +35,6 @@ const AboutLinks = () => {
                 className="link"
                 title={title}
               >
-                <BiChevronRight />
                 {text}
               </a>
             </li>
