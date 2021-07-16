@@ -59,6 +59,10 @@ const Wrapper = styled.section`
     span {
       color: var(--clr-primary);
     }
+    p {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   .img-container {

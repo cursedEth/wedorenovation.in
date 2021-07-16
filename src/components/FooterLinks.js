@@ -33,6 +33,7 @@ const Wrapper = styled.section`
     align-items: center;
     grid-template-columns: 1fr;
     gap: 2rem;
+    text-align: left;
 
     @media (min-width: 992px) {
       grid-template-columns: auto 1fr;

@@ -93,7 +93,7 @@ export const contactLinks = [
   {
     id: 2,
     url: 'tel:8800805388',
-    title: 'Telephone',
+    title: 'Phone',
     icon: <FaPhoneAlt />,
     text: '(+91) 8800805388',
   },
