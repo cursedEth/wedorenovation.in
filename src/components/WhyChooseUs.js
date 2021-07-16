@@ -1,11 +1,9 @@
 import React from 'react';
 import {
-  FaCertificate,
   FaRegClock,
   FaRegThumbsUp,
   FaUsers,
   FaMapMarkerAlt,
-  FaClipboardCheck,
 } from 'react-icons/fa';
 import { AiOutlineSafetyCertificate, AiOutlineBarChart } from 'react-icons/ai';
 import styled from 'styled-components';
@@ -25,8 +23,8 @@ const WhyChooseUs = () => {
         {/* icons */}
         <article className="icon-container">
           <div className="icon">
-            <AiOutlineSafetyCertificate />
-            <h4>certified team</h4>
+            <FaRegClock />
+            <h4>always on time</h4>
           </div>
 
           <div className="icon">
@@ -50,8 +48,8 @@ const WhyChooseUs = () => {
           </div>
 
           <div className="icon">
-            <FaRegClock />
-            <h4>always on time</h4>
+            <AiOutlineSafetyCertificate />
+            <h4>certified team</h4>
           </div>
         </article>
       </div>
@@ -62,9 +60,6 @@ const WhyChooseUs = () => {
 const Wrapper = styled.section`
   background: var(--clr-primary);
   color: var(--white);
-  @media (min-width: 792px) {
-    padding: 6rem 0;
-  }
 
   .section-center {
     display: grid;
@@ -72,17 +67,12 @@ const Wrapper = styled.section`
     gap: 3rem;
 
     @media (min-width: 792px) {
-      grid-template-columns: 1fr auto;
-
-      .info-container {
-        text-align: left;
-      }
+      grid-template-columns: 1fr 1fr;
     }
   }
 
   .info-container {
     align-self: center;
-    text-align: center;
   }
 
   .icon-container {
@@ -90,15 +80,7 @@ const Wrapper = styled.section`
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-
-    @media (min-width: 992px) {
-      gap: 3rem;
-    }
-
-    @media (min-width: 1170px) {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+    gap: 2rem 3rem;
 
     h4 {
       line-height: 1.25;

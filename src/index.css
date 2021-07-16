@@ -279,34 +279,23 @@ img {
   }
 }
 
-/* -title */
-
-.title {
-  text-align: center;
-}
-.title-underline {
-  background: var(--primary-5);
-  width: 7rem;
-  height: 0.25rem;
-  margin: -1rem auto 0;
-  transition: var(--transitionLong);
-}
-.title:hover .title-underline {
-  width: 11rem;
-  background: var(--primary-6);
-}
-
 .section {
   padding: 4rem 0;
-}
-@media (min-width: 792px) {
-  .section {
-    padding: 5rem 0;
-  }
 }
 
 .section-center {
   width: 90vw;
   margin: 0 auto;
   max-width: var(--maxWidth);
+  text-align: center;
+}
+
+@media (min-width: 792px) {
+  .section {
+    padding: 5rem 0;
+  }
+
+  .section-center {
+    text-align: left;
+  }
 }

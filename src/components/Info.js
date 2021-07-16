@@ -49,16 +49,10 @@ const Wrapper = styled.section`
       .img-container {
         display: block;
       }
-
-      .info-container {
-        text-align: left;
-      }
     }
   }
 
   .info-container {
-    text-align: center;
-
     h2 {
       margin-bottom: 2rem;
     }
