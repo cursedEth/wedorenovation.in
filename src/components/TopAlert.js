@@ -59,6 +59,7 @@ const Wrapper = styled.section`
     left: 0;
     width: 100%;
     box-shadow: var(--shadow-4);
+    z-index: 10;
   }
 
   .close-alert {

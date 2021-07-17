@@ -11,6 +11,7 @@ import Contact from './Contact';
 import FooterLinks from './FooterLinks';
 import Footer from './Footer';
 import Title from './_Title';
+import ContactMap from './_ContactMap';
 
 export {
   TopAlert,
@@ -26,4 +27,5 @@ export {
   FooterLinks,
   Footer,
   Title,
+  ContactMap,
 };
