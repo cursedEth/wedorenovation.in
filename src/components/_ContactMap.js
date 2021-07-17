@@ -9,6 +9,7 @@ const ContactMap = () => {
         allowFullScreen
         loading="lazy"
         title="Location on Google Maps"
+        className="map"
       ></iframe>
     </MapContainer>
   );
@@ -18,7 +19,7 @@ const MapContainer = styled.article`
   width: 100%;
   text-align: center;
 
-  iframe {
+  .map {
     border: none;
     border-radius: var(--borderRadius);
     box-shadow: var(--shadow-1);

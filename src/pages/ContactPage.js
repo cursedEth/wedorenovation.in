@@ -41,7 +41,7 @@ const ContactPage = () => {
 };
 
 const Wrapper = styled.main`
-  iframe {
+  .map {
     min-height: 31.5rem;
   }
 
