@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import heroImg from '../assets/hero-img.webp';
+import heroImg from '../assets/hero-bcg.webp';
 import { useGlobalContext } from '../context';
 import { FaPhoneAlt } from 'react-icons/fa';
 
