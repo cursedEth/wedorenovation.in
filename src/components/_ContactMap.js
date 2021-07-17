@@ -18,6 +18,7 @@ const ContactMap = () => {
 const MapContainer = styled.article`
   width: 100%;
   text-align: center;
+  line-height: 0;
 
   .map {
     border: none;

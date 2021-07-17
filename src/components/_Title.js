@@ -16,6 +16,7 @@ const Title = ({ title, description }) => {
 const TitleContainer = styled.div`
   text-align: center;
   margin-bottom: 3rem;
+  padding: 0 1rem;
 
   .title p {
     margin: 1rem auto 0;

@@ -9,7 +9,6 @@ const ContactPage = () => {
     <Wrapper>
       <PageTitle title="get in touch" subtitle="contact" />
 
-      <ContactMap />
       <section className="section-center">
         <div className="info">
           <Title title="contact us" />
@@ -36,6 +35,9 @@ const ContactPage = () => {
           })}
         </div>
       </section>
+
+      {/* map */}
+      <ContactMap />
     </Wrapper>
   );
 };

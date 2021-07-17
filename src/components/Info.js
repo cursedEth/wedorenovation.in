@@ -70,7 +70,7 @@ const Wrapper = styled.section`
     box-shadow: var(--shadow-3);
 
     img {
-      max-height: 30rem;
+      max-height: 28rem;
       border-radius: var(--borderRadius);
     }
   }
