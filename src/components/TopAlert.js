@@ -12,7 +12,7 @@ const TopAlert = () => {
 
   // scroll function
   window.addEventListener('scroll', () => {
-    if (window.pageYOffset > 48) {
+    if (window.pageYOffset > 128) {
       setShouldFix(true);
     } else {
       setShouldFix(false);

@@ -10,6 +10,7 @@ import Gallery from './Gallery';
 import Contact from './Contact';
 import FooterLinks from './FooterLinks';
 import Footer from './Footer';
+import Title from './_Title';
 
 export {
   TopAlert,
@@ -24,4 +25,5 @@ export {
   Contact,
   FooterLinks,
   Footer,
+  Title,
 };

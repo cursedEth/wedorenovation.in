@@ -51,12 +51,10 @@ const Wrapper = styled.section`
     display: grid;
     place-items: center;
     gap: 3rem;
-    /* margin-top: -2rem; */
 
     @media (min-width: 992px) {
       margin-top: 0;
       grid-template-columns: 1fr 1fr;
-      /* gap: 5rem; */
     }
   }
 
@@ -88,6 +86,7 @@ const Wrapper = styled.section`
   .contact-map {
     width: 100%;
     text-align: center;
+    overflow: hidden;
 
     iframe {
       border: none;
@@ -95,6 +94,7 @@ const Wrapper = styled.section`
       box-shadow: var(--shadow-1);
       min-height: 21rem;
       width: 100%;
+      overflow: hidden;
     }
   }
 `;

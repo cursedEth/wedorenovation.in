@@ -23,7 +23,7 @@ const Sidebar = () => {
         </header>
 
         {/* sidebar-links */}
-        <ul className="sidebar-links">
+        <ul className="sidebar-links" onClick={closeSidebar}>
           <li>
             <Link to="/" className="link">
               home
@@ -42,7 +42,9 @@ const Sidebar = () => {
         </ul>
 
         {/* Contact-btn */}
-        <ContactBtn />
+        <span onClick={closeSidebar}>
+          <ContactBtn />
+        </span>
       </aside>
     </SidebarContainer>
   );
