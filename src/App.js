@@ -1,10 +1,18 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { TopAlert, Navbar, Sidebar, FooterLinks, Footer } from './components';
+import {
+  ScrollToTop,
+  TopAlert,
+  Navbar,
+  Sidebar,
+  FooterLinks,
+  Footer,
+} from './components';
 import { Home, About, FAQs, SingleService, Contact, Error } from './pages';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <TopAlert />
       <Navbar />
       <Sidebar />

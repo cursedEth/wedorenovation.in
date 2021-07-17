@@ -11,7 +11,7 @@ import {
 
 const HomePage = () => {
   return (
-    <main>
+    <>
       <Hero />
       <Info />
       <WhyChooseUs />
@@ -19,7 +19,7 @@ const HomePage = () => {
       <Testimonials />
       <Gallery />
       <Contact />
-    </main>
+    </>
   );
 };
 

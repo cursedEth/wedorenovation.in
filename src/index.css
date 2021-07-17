@@ -40,6 +40,7 @@ html {
   /** specific colors for this one */
   /* --clr-primary: #2caeba; */
   --clr-primary: #146ce7;
+  --clr-primary-light: hsl(215, 84%, 59%);
   --clr-secondary: #181d31;
 
   /*- set colors  */
@@ -182,7 +183,7 @@ img {
 .btn {
   display: inline-block;
   cursor: pointer;
-  background: var(--primary-5);
+  background: var(--clr-primary);
   color: var(--white);
   border: transparent;
   border-radius: var(--borderRadius);
@@ -194,7 +195,7 @@ img {
   font-size: 1.2rem;
 }
 .btn:hover {
-  background: var(--primary-6);
+  background: var(--clr-primary-light);
   box-shadow: var(--shadow-3);
 }
 .btn-block {
@@ -298,4 +299,8 @@ img {
   .section-center {
     text-align: left;
   }
+}
+
+.page-100 {
+  min-height: calc(100vh - 375px);
 }

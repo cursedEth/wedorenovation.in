@@ -7,7 +7,7 @@ const Services = () => {
     <Wrapper className="section">
       <Title
         title="our services"
-        description="We provide a large variety of services. Everything from construction, repair, waterprrofing to painting, decoration, wood works, etc."
+        description="We provide a large variety of services. Everything from construction, repair, waterproofing to painting, decoration, wood works, etc."
       />
 
       <div className="section-center">

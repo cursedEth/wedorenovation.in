@@ -6,7 +6,7 @@ import { contactLinks as links } from '../utils/constants';
 
 const ContactPage = () => {
   return (
-    <Wrapper>
+    <Wrapper className="page-100">
       <PageTitle title="get in touch" subtitle="contact" />
 
       <section className="section-center">

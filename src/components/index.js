@@ -12,6 +12,7 @@ import FooterLinks from './FooterLinks';
 import Footer from './Footer';
 import Title from './_Title';
 import ContactMap from './_ContactMap';
+import ScrollToTop from './_ScrollToTop';
 
 export {
   TopAlert,
@@ -28,4 +29,5 @@ export {
   Footer,
   Title,
   ContactMap,
+  ScrollToTop,
 };
