@@ -4,6 +4,8 @@ import PageTitle from './_PageTitle';
 import { Title, ContactMap } from '../components';
 import { contactLinks as links } from '../utils/constants';
 
+//* COMPONENTS
+
 const ContactPage = () => {
   return (
     <Wrapper className="page-100">
@@ -11,28 +13,14 @@ const ContactPage = () => {
 
       <section className="section-center">
         <div className="info">
-          <Title title="contact us" />
+          <Title
+            title="contact us"
+            description="We are open 24x7. Get in touch with us anytime you want. Use the details below for the same."
+          />
 
-          {links.map(({ id, url, icon, title, text }) => {
-            return (
-              <div className="info-item" key={id}>
-                <h5>{title}</h5>
-                <h3>
-                  {icon}{' '}
-                  <a
-                    href={url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="link"
-                    title={title}
-                  >
-                    {text}
-                  </a>
-                </h3>
-                <hr />
-              </div>
-            );
-          })}
+          {links.map((link) => (
+            <SingleInfoItem key={links.id} {...link} />
+          ))}
         </div>
       </section>
 
@@ -41,6 +29,29 @@ const ContactPage = () => {
     </Wrapper>
   );
 };
+
+const SingleInfoItem = ({ title, icon, url, text }) => {
+  return (
+    <article className="info-item">
+      <h5>{title}</h5>
+      <h3>
+        {icon}{' '}
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+          className="link"
+          title={title}
+        >
+          {text}
+        </a>
+      </h3>
+      <hr />
+    </article>
+  );
+};
+
+//* STYLES
 
 const Wrapper = styled.main`
   .map {

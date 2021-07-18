@@ -4,10 +4,13 @@ import PageTitle from './_PageTitle';
 import { Title } from '../components';
 import { teamMembers } from '../utils/data';
 
+// *COMPONENTS
+
 const AboutPage = () => {
   return (
-    <Wrapper>
+    <Wrapper className="page-100">
       <PageTitle title="who we are" subtitle="about us" />
+
       {/* WHO WE ARE */}
       <section className="section section-center">
         <p>
@@ -28,30 +31,36 @@ const AboutPage = () => {
         </p>
       </section>
 
-      {/* OUT TEAM */}
+      {/* OUR TEAM */}
       <section className="section team">
         <Title
           title="Our Team"
           description="The work that we do requires a lot of manpower. Here are a few key members of our huge team that take care of everthing and make sure you get the best service possible."
         />
+
         <div className="section-center">
-          {teamMembers.map(({ id, avatar, name, title }) => {
-            return (
-              <article className="team-member" key={id}>
-                <div className="img-container">
-                  <img src={avatar} alt={name} />
-                </div>
-                <h3>{name}</h3>
-                <h5>{title}</h5>
-              </article>
-            );
-          })}
+          {teamMembers.map((member) => (
+            <SingleTeamMember key={member.id} {...member} />
+          ))}
         </div>
       </section>
     </Wrapper>
   );
 };
 
+const SingleTeamMember = ({ avatar, name, title }) => {
+  return (
+    <article className="team-member">
+      <div className="img-container">
+        <img src={avatar} alt={name} />
+      </div>
+      <h3>{name}</h3>
+      <h5>{title}</h5>
+    </article>
+  );
+};
+
+// * STYLES
 const Wrapper = styled.main`
   .section-center p {
     margin: 0 auto;

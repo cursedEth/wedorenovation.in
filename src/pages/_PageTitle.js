@@ -5,7 +5,7 @@ import heroImg from '../assets/hero-bcg.webp';
 
 const PageTitle = ({ title, subtitle }) => {
   return (
-    <TitleConatiner>
+    <TitleConatiner className="section">
       <div className="section-center">
         <h1>{title}</h1>
         <h5>
@@ -20,10 +20,10 @@ const TitleConatiner = styled.div`
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
     url(${heroImg}) center/cover no-repeat;
   color: var(--white);
-  padding: 5rem 0;
 
   .section-center {
     text-align: center;
+
     h1 {
       text-shadow: 1px 2px 2px var(--clr-primary);
     }
