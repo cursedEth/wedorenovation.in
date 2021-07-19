@@ -17,6 +17,7 @@ const Contact = () => {
             most of our business via calls but alternatively, you can also send
             us an email and we'll get back to you within 24 hours.
           </p>
+          
           <ul className="contact-links">
             {links.map(({ id, icon, title, text }) => {
               return (

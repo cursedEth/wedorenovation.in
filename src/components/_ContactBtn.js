@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ContactBtn = () => {
   return (
     <Wrapper>
-      <Link to="/contact" className="btn contact-btn">
+      <Link to="/contact" className="btn contact-btn" title="Contact Details">
         Contact
       </Link>
     </Wrapper>

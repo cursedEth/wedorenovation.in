@@ -9,7 +9,10 @@ const PageTitle = ({ title, subtitle }) => {
       <div className="section-center">
         <h1>{title}</h1>
         <h5>
-          <Link to="/">home</Link> / {subtitle}
+          <Link to="/" title="Back to Home">
+            home
+          </Link>{' '}
+          / {subtitle}
         </h5>
       </div>
     </TitleConatiner>

@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import Title from './_Title';
 import reviewsImg from '../assets/reviews-bcg.webp';
 
-const Testimonials = () => {
+const Reviews = () => {
   return (
     <Wrapper className="section">
       <Title
-        title="our testimonials"
+        title="our Reviews"
         description="See what people say about us! Here are a few of the many amazing feedbacks we get every week."
       />
 
@@ -22,15 +22,10 @@ const Wrapper = styled.section`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
     url(${reviewsImg}) center/cover no-repeat;
   color: var(--white);
-  min-height: 60vh;
 
   .title:hover .title-underline {
     background: var(--backgroundColor);
   }
-
-  .section-center {
-    text-align: center;
-  }
 `;
 
-export default Testimonials;
+export default Reviews;

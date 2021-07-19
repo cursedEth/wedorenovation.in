@@ -2,9 +2,9 @@ import React from 'react';
 import {
   Hero,
   Info,
-  WhyChooseUs,
+  Skills,
   Services,
-  Testimonials,
+  Reviews,
   Gallery,
   Contact,
 } from '../components';
@@ -14,9 +14,9 @@ const HomePage = () => {
     <>
       <Hero />
       <Info />
-      <WhyChooseUs />
+      <Skills />
       <Services />
-      <Testimonials />
+      <Reviews />
       <Gallery />
       <Contact />
     </>

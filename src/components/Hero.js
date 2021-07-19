@@ -26,7 +26,7 @@ const Hero = () => {
           <a
             href="tel:8800805388"
             className="btn"
-            title="Get a quote and visit for free!"
+            title="Get an estimate and site visit for free!"
           >
             get a quote! <FaPhoneAlt />
           </a>

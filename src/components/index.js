@@ -3,9 +3,9 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Hero from './Hero';
 import Info from './Info';
-import WhyChooseUs from './WhyChooseUs';
+import Skills from './Skills';
 import Services from './Services';
-import Testimonials from './Testimonials';
+import Reviews from './Reviews';
 import Gallery from './Gallery';
 import Contact from './Contact';
 import FooterLinks from './FooterLinks';
@@ -20,9 +20,9 @@ export {
   Sidebar,
   Hero,
   Info,
-  WhyChooseUs,
+  Skills,
   Services,
-  Testimonials,
+  Reviews,
   Gallery,
   Contact,
   FooterLinks,
