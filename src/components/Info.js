@@ -30,6 +30,7 @@ const Info = () => {
           <img
             src={infoImg}
             alt="Painting, Renovation & Construction Services"
+            loading="lazy"
           />
         </article>
       </div>

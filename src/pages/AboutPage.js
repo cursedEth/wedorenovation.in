@@ -52,7 +52,7 @@ const SingleTeamMember = ({ avatar, name, title }) => {
   return (
     <article className="team-member">
       <div className="img-container">
-        <img src={avatar} alt={name} />
+        <img src={avatar} alt={name} loading="lazy" />
       </div>
       <h3>{name}</h3>
       <h5>{title}</h5>

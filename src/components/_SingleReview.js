@@ -28,7 +28,7 @@ const SingleReview = ({
   return (
     <Wrapper className={slidePosition}>
       <div className="container">
-        <img src={image} alt={name} className="person-img" />
+        <img src={image} alt={name} className="person-img" loading="lazy" />
         <div className="review-info">
           <Ratings stars={stars} />
           <p className="text">{text}</p>
