@@ -42,7 +42,6 @@ const SingleQuestion = ({ ques, ans }) => {
           {isQuesOpen ? <FaChevronUp /> : <FaChevronDown />}
         </button>
       </header>
-      {/* {isQuesOpen && <p>{ans}</p>} */}
       <p className={isQuesOpen ? 'show' : ''}>{ans}</p>
       <hr />
     </article>

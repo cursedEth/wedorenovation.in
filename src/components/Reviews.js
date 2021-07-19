@@ -49,6 +49,7 @@ const Reviews = () => {
             {...review}
           />
         ))}
+
         <button className="prev" onClick={() => setIndex(index - 1)}>
           <FaChevronLeft />
         </button>
