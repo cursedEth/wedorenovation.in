@@ -35,11 +35,13 @@ const Reviews = () => {
   // jsx
   return (
     <Wrapper className="section">
+      {/* title */}
       <Title
         title="our Reviews"
         description="See what people say about us! Here are a few of the many amazing feedbacks we get every week."
       />
 
+      {/* reviews */}
       <div className="section-center">
         {reviews.map((review, reviewIndex) => (
           <SingleReview
@@ -57,6 +59,17 @@ const Reviews = () => {
           <FaChevronRight />
         </button>
       </div>
+
+      {/* g-reviews btn */}
+      <a
+        href="https://www.google.com/maps/place/HOME+:+House+Painting,+Construction,+Renovation+and+Remodeling+Contractors+In+Noida/@28.591414,77.3624893,17z/data=!4m7!3m6!1s0x390ce5779518134b:0xf34905cd5c20102d!8m2!3d28.5914177!4d77.3646746!9m1!1b1"
+        className="btn"
+        target="_blank"
+        rel="noreferrer"
+        title="Check our reviews on google business page"
+      >
+        view more
+      </a>
     </Wrapper>
   );
 };
@@ -66,9 +79,20 @@ const Wrapper = styled.section`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
     url(${reviewsImg}) center/cover no-repeat;
   color: var(--white);
+  text-align: center;
 
   .title:hover .title-underline {
     background: var(--backgroundColor);
+  }
+
+  .btn {
+    margin-top: 2rem;
+    background: transparent;
+    border: 2px solid var(--clr-primary);
+
+    &:hover {
+      background: var(--clr-gradient);
+    }
   }
 
   .section-center {
