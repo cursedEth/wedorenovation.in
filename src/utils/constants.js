@@ -17,8 +17,8 @@ export const aboutLinks = [
   },
   {
     id: 2,
-    url: 'https://www.google.com/maps/place/HOME+:+House+Painting,+Construction,+Renovation+and+Remodeling+Contractors+In+Noida/@28.591414,77.3624893,17z/data=!4m7!3m6!1s0x390ce5779518134b:0xf34905cd5c20102d!8m2!3d28.5914177!4d77.3646746!9m1!1b1',
-    title: 'Reviews on G-Business',
+    url: 'https://supple.live/hRPrcSxTwAhJpodP9',
+    title: 'See reviews on Google Business',
     text: 'reviews (google)',
   },
 ];

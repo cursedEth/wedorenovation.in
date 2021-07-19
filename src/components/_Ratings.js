@@ -71,7 +71,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   span {
-    color: #d4af37;
+    color: #ffd700;
     font-size: 1rem;
     margin-right: 0.25rem;
   }

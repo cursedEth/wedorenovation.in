@@ -65,6 +65,7 @@ const Wrapper = styled.article`
 
   .container {
     background: var(--clr-gradient);
+    box-shadow: var(--shadow-4);
     -webkit-clip-path: polygon(
       100% 0,
       100% 75%,
@@ -110,6 +111,7 @@ const Wrapper = styled.article`
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
+    box-shadow: var(--shadow-3);
   }
 
   .name {

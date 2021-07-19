@@ -98,7 +98,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-gradient);
+  background: var(--clr-gradient);
   outline: 1px solid var(--clr-primary);
 }
 
