@@ -40,8 +40,13 @@ html {
   /** specific colors for this one */
   /* --clr-primary: #2caeba; */
   --clr-primary: #146ce7;
-  --clr-primary-light: hsl(215, 84%, 59%);
+  --clr-primary-light: #3f88ee;
   --clr-secondary: #181d31;
+  --clr-gradient: linear-gradient(
+    to bottom right,
+    rgba(20, 108, 231),
+    rgba(63, 136, 238)
+  );
 
   /*- set colors  */
   --backgroundColor: var(--grey-1);
@@ -80,6 +85,21 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-color: rebeccapurple green;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px var(--clr-secondary);
+  -webkit-box-shadow: inset 0 0 4px var(--clr-secondary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-primary-light);
+  outline: 1px solid var(--clr-primary);
 }
 
 body {
@@ -183,7 +203,7 @@ img {
 .btn {
   display: inline-block;
   cursor: pointer;
-  background: var(--clr-primary);
+  background: var(--clr-gradient);
   color: var(--white);
   border: transparent;
   border-radius: var(--borderRadius);

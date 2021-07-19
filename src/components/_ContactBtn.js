@@ -20,8 +20,7 @@ const Wrapper = styled.div`
     margin: 0 auto;
 
     &:hover {
-      background: var(--clr-primary);
-      border-color: var(--clr-secondary);
+      background: var(--clr-gradient);
     }
   }
 `;

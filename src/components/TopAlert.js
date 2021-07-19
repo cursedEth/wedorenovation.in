@@ -46,7 +46,7 @@ const TopAlert = () => {
 
 const Wrapper = styled.section`
   .container {
-    background: var(--clr-primary);
+    background: var(--clr-gradient);
     height: 48px;
     display: grid;
     grid-template-columns: 1fr auto;

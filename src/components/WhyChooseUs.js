@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
 };
 
 const Wrapper = styled.section`
-  background: var(--clr-primary);
+  background: var(--clr-gradient);
   color: var(--white);
 
   .section-center {
