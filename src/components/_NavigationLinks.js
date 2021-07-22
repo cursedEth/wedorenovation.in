@@ -30,12 +30,14 @@ const NavigationLinks = () => {
         className="about-links"
         onMouseEnter={openAboutMenu}
         onMouseLeave={closeAboutMenu}
-        onClick={closeAboutMenu}
       >
         <button className="nav-link">
           about <FaAngleDown />
         </button>
-        <div className={`dropdown ${menu.aboutMenu ? 'show-dropdown' : ''}`}>
+        <div
+          className={`dropdown ${menu.aboutMenu ? 'show-dropdown' : ''}`}
+          onClick={closeAboutMenu}
+        >
           <AboutLinks />
         </div>
       </article>
@@ -45,12 +47,14 @@ const NavigationLinks = () => {
         className="services-links"
         onMouseEnter={openServicesMenu}
         onMouseLeave={closeServicesMenu}
-        onClick={closeServicesMenu}
       >
         <button className="nav-link">
           services <FaAngleDown />
         </button>
-        <div className={`dropdown ${menu.servicesMenu ? 'show-dropdown' : ''}`}>
+        <div
+          className={`dropdown ${menu.servicesMenu ? 'show-dropdown' : ''}`}
+          onClick={closeServicesMenu}
+        >
           <ServicesLinks />
         </div>
       </article>
@@ -63,10 +67,6 @@ const Wrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   gap: 3rem;
-  /* 
-  @media (min-width: 992px) {
-    display: flex;
-  } */
 
   .nav-link {
     cursor: pointer;
