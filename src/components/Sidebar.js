@@ -23,7 +23,7 @@ const Sidebar = () => {
         </header>
 
         {/* sidebar-links */}
-        <div className="sidebar-links" onClick={closeSidebar}>
+        <div className="sidebar-links">
           <NavigationLinks />
         </div>
 
