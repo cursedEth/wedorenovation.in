@@ -24,7 +24,7 @@ const NavigationLinks = () => {
     <Wrapper className="links">
       {/* home */}
       <article>
-        <Link to="/">
+        <Link to="/" onClick={closeSidebar}>
           <button className="nav-link">home</button>
         </Link>
       </article>
