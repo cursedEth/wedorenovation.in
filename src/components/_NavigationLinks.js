@@ -4,8 +4,12 @@ import AboutLinks from './_AboutLinks';
 import ServicesLinks from './_ServicesLinks';
 import { Link } from 'react-router-dom';
 import { FaAngleDown } from 'react-icons/fa';
+import { useGlobalContext } from '../context';
 
 const NavigationLinks = () => {
+  // data from context
+  const { closeSidebar } = useGlobalContext();
+
   // state
   const [menu, setMenu] = useState({ aboutMenu: false, servicesMenu: false });
 
@@ -36,7 +40,10 @@ const NavigationLinks = () => {
         </button>
         <div
           className={`dropdown ${menu.aboutMenu ? 'show-dropdown' : ''}`}
-          onClick={closeAboutMenu}
+          onClick={() => {
+            closeAboutMenu();
+            closeSidebar();
+          }}
         >
           <AboutLinks />
         </div>
@@ -53,7 +60,10 @@ const NavigationLinks = () => {
         </button>
         <div
           className={`dropdown ${menu.servicesMenu ? 'show-dropdown' : ''}`}
-          onClick={closeServicesMenu}
+          onClick={() => {
+            closeServicesMenu();
+            closeSidebar();
+          }}
         >
           <ServicesLinks />
         </div>
