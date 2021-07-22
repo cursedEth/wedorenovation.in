@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
 import { FaBars } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
+import NavigationLinks from './_NavigationLinks';
 
 const Navbar = () => {
   // data from context
@@ -23,23 +23,8 @@ const Navbar = () => {
         </div>
 
         {/* nav-links */}
-        <ul className="nav-links">
-          <li>
-            <Link to="/" className="link">
-              home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="link">
-              about
-            </Link>
-          </li>
-          <li>
-            <Link to="/services/12" className="link">
-              services
-            </Link>
-          </li>
-        </ul>
+
+        <NavigationLinks />
 
         {/* contact-btn */}
         <ContactBtn />
@@ -84,24 +69,6 @@ const NavContainer = styled.nav`
     }
   }
 
-  .nav-links {
-    display: none;
-    justify-content: space-around;
-    align-items: center;
-    gap: 3rem;
-
-    .link {
-      color: var(--grey-4);
-      text-transform: capitalize;
-      font-size: 1.25rem;
-      letter-spacing: var(--letterSpacing);
-      padding: 0.5rem;
-      &:hover {
-        color: var(--white);
-      }
-    }
-  }
-
   .contact-btn {
     display: none;
   }
@@ -113,9 +80,7 @@ const NavContainer = styled.nav`
     .nav-btn {
       display: none;
     }
-    .nav-links {
-      display: flex;
-    }
+
     .contact-btn {
       display: block;
     }

@@ -15,9 +15,18 @@ const FooterLinks = () => {
         </article>
 
         <article className="links-container">
-          <AboutLinks />
-          <ServicesLinks />
-          <ContactLinks />
+          <div>
+            <h5>about</h5>
+            <AboutLinks />
+          </div>
+          <div>
+            <h5>services</h5>
+            <ServicesLinks />
+          </div>
+          <div>
+            <h5>contact</h5>
+            <ContactLinks />
+          </div>
         </article>
       </div>
     </Wrapper>
@@ -46,10 +55,8 @@ const Wrapper = styled.section`
   }
 
   .info-container {
-    .logo {
-      margin-bottom: 1rem;
-    }
     p {
+      margin-top: 1rem;
       max-width: 18rem;
       color: var(--grey-4);
     }
