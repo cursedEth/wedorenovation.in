@@ -7,11 +7,17 @@ import { FaAngleDown } from 'react-icons/fa';
 
 const NavigationLinks = () => {
   // state
-  const [showDropdown, setShowDropdown] = useState({});
+  const [menu, setMenu] = useState({ aboutMenu: false, servicesMenu: false });
+
+  // functions
+  const openAboutMenu = () => setMenu({ ...menu, aboutMenu: true });
+  const closeAboutMenu = () => setMenu({ ...menu, aboutMenu: false });
+  const openServicesMenu = () => setMenu({ ...menu, servicesMenu: true });
+  const closeServicesMenu = () => setMenu({ ...menu, servicesMenu: false });
 
   // jsx
   return (
-    <Wrapper>
+    <Wrapper className="links">
       {/* home */}
       <article>
         <Link to="/">
@@ -22,18 +28,14 @@ const NavigationLinks = () => {
       {/* about */}
       <article
         className="about-links"
-        onMouseEnter={() => setShowDropdown({ aboutMenu: true })}
-        onMouseLeave={() => setShowDropdown({ aboutMenu: false })}
-        onClick={() => setShowDropdown({ aboutMenu: false })}
+        onMouseEnter={openAboutMenu}
+        onMouseLeave={closeAboutMenu}
+        onClick={closeAboutMenu}
       >
         <button className="nav-link">
           about <FaAngleDown />
         </button>
-        <div
-          className={`dropdown ${
-            showDropdown.aboutMenu ? 'show-dropdown' : ''
-          }`}
-        >
+        <div className={`dropdown ${menu.aboutMenu ? 'show-dropdown' : ''}`}>
           <AboutLinks />
         </div>
       </article>
@@ -41,18 +43,14 @@ const NavigationLinks = () => {
       {/* services */}
       <article
         className="services-links"
-        onMouseEnter={() => setShowDropdown({ servicesMenu: true })}
-        onMouseLeave={() => setShowDropdown({ servicesMenu: false })}
-        onClick={() => setShowDropdown({ servicesMenu: false })}
+        onMouseEnter={openServicesMenu}
+        onMouseLeave={closeServicesMenu}
+        onClick={closeServicesMenu}
       >
         <button className="nav-link">
           services <FaAngleDown />
         </button>
-        <div
-          className={`dropdown ${
-            showDropdown.servicesMenu ? 'show-dropdown' : ''
-          }`}
-        >
+        <div className={`dropdown ${menu.servicesMenu ? 'show-dropdown' : ''}`}>
           <ServicesLinks />
         </div>
       </article>
@@ -61,14 +59,14 @@ const NavigationLinks = () => {
 };
 
 const Wrapper = styled.div`
-  display: none;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 3rem;
-
+  /* 
   @media (min-width: 992px) {
     display: flex;
-  }
+  } */
 
   .nav-link {
     cursor: pointer;

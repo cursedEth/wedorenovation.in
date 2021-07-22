@@ -23,8 +23,9 @@ const Navbar = () => {
         </div>
 
         {/* nav-links */}
-
-        <NavigationLinks />
+        <div className="nav-links">
+          <NavigationLinks />
+        </div>
 
         {/* contact-btn */}
         <ContactBtn />
@@ -69,6 +70,12 @@ const NavContainer = styled.nav`
     }
   }
 
+  @media (max-width: 992px) {
+    .nav-links {
+      display: none;
+    }
+  }
+
   .contact-btn {
     display: none;
   }
@@ -80,7 +87,6 @@ const NavContainer = styled.nav`
     .nav-btn {
       display: none;
     }
-
     .contact-btn {
       display: block;
     }

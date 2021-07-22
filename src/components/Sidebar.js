@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
+import NavigationLinks from './_NavigationLinks';
 
 const Sidebar = () => {
   // data from context
@@ -23,23 +23,9 @@ const Sidebar = () => {
         </header>
 
         {/* sidebar-links */}
-        <ul className="sidebar-links" onClick={closeSidebar}>
-          <li>
-            <Link to="/" className="link">
-              home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="link">
-              about
-            </Link>
-          </li>
-          <li>
-            <Link to="/services/12" className="link">
-              services
-            </Link>
-          </li>
-        </ul>
+        <div className="sidebar-links" onClick={closeSidebar}>
+          <NavigationLinks />
+        </div>
 
         {/* Contact-btn */}
         <span onClick={closeSidebar}>
@@ -54,23 +40,39 @@ const SidebarContainer = styled.aside`
   text-align: center;
 
   .sidebar-links {
-    margin-bottom: 2rem;
-  }
+    margin-bottom: 4rem;
+    width: 100%;
 
-  .link {
-    text-transform: uppercase;
-    padding: 1rem;
-    font-size: 1.25rem;
-    letter-spacing: var(--letterSpacing);
-    display: block;
-    font-weight: bold;
-    color: var(--clr-primary);
-    background: var(--grey-1);
+    .links {
+      width: 100%;
+      display: grid;
+      grid-template-rows: 200px 200px auto;
+      gap: 1rem;
+      align-items: flex-start;
+      justify-content: stretch;
+      background: var(--clr-gradient);
 
-    &:hover {
-      background: var(--clr-primary);
-      color: var(--white);
-      border-left: 4px solid var(--clr-secondary);
+      ul {
+        padding-top: 0;
+      }
+
+      .nav-link {
+        text-transform: uppercase;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+        letter-spacing: var(--letterSpacing);
+        display: block;
+        font-weight: bold;
+        a {
+          color: var(--clr-white);
+        }
+        &:hover {
+          background: var(--clr-gradient);
+          color: var(--white);
+          border-left: 4px solid var(--clr-secondary);
+        }
+      }
     }
   }
 
@@ -79,7 +81,7 @@ const SidebarContainer = styled.aside`
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     background: var(--white);
     transition: var(--transition);
     transform: translate(-100%);
