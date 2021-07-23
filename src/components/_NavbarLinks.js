@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import AboutLinks from './_AboutLinks';
 import ServicesLinks from './_ServicesLinks';

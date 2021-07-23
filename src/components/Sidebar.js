@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
