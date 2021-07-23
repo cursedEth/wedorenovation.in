@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { galleryWorks } from '../utils/data';
 import Title from './_Title';
+import SingleGalleryImage from './_SingleGalleryImage';
 
 // *COMPONENTS
 const Gallery = () => {
@@ -21,21 +22,10 @@ const Gallery = () => {
   );
 };
 
-const SingleGalleryImage = ({ title, url }) => {
-  return (
-    <article className="gallery-img">
-      <h3>{title}</h3>
-      <img src={url} alt={title} loading="lazy" />
-    </article>
-  );
-};
-
 // *STYLES
 const Wrapper = styled.section`
   background: var(--clr-secondary);
-  /* background: var(--grey-9); */
   color: var(--backgroundColor);
-  /* padding-bottom: 0; */
 
   .title:hover .title-underline {
     background: var(--backgroundColor);
@@ -43,7 +33,6 @@ const Wrapper = styled.section`
 
   .gallery-center {
     display: grid;
-    /* place-items: center; */
     grid-template-columns: 1fr 1fr;
 
     @media (min-width: 992px) {
@@ -89,43 +78,6 @@ const Wrapper = styled.section`
       .gallery-img:nth-child(10) {
         grid-area: j;
       }
-    }
-  }
-
-  .gallery-img {
-    border: 1px solid var(--white);
-    background: linear-gradient(
-      to bottom right,
-      var(--clr-primary),
-      var(--black)
-    );
-    /* background: var(--black); */
-    position: relative;
-    text-align: center;
-    height: 25rem;
-
-    &:hover h3 {
-      transform: translate(-50%, -50%) scale(1);
-    }
-    &:hover img {
-      opacity: 0.2;
-      cursor: pointer;
-    }
-
-    h3 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) scale(0);
-      transition: var(--transition);
-      color: var(--white);
-      text-transform: uppercase;
-      line-height: 1.5;
-    }
-
-    img {
-      transition: var(--transition);
-      height: 100%;
     }
   }
 `;
