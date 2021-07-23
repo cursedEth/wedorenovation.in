@@ -12,7 +12,7 @@ export const skills = [
   {
     id: 1,
     icon: <FaRegClock />,
-    text: 'always on time',
+    text: 'timely work',
   },
   {
     id: 2,
@@ -21,23 +21,23 @@ export const skills = [
   },
   {
     id: 3,
+    icon: <AiOutlineSafetyCertificate />,
+    text: 'certified',
+  },
+  {
+    id: 4,
+    icon: <FaUsers />,
+    text: 'experienced',
+  },
+  {
+    id: 5,
     icon: <AiOutlineBarChart />,
     text: 'top quality',
   },
   {
-    id: 4,
-    icon: <FaRegThumbsUp />,
-    text: 'trusted services',
-  },
-  {
-    id: 5,
-    icon: <FaUsers />,
-    text: 'experienced team',
-  },
-  {
     id: 6,
-    icon: <AiOutlineSafetyCertificate />,
-    text: 'certified team',
+    icon: <FaRegThumbsUp />,
+    text: 'best services',
   },
 ];
 

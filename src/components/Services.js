@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <Wrapper className="section">
       <Title
-        title="our services"
+        title="the services"
         description="We provide a large variety of services. Everything from construction, repair, waterproofing to painting, decoration, wood works, etc."
       />
 

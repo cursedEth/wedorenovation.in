@@ -37,7 +37,7 @@ const Reviews = () => {
     <Wrapper className="section">
       {/* title */}
       <Title
-        title="our Reviews"
+        title="the reviews"
         description="See what people say about us! Here are a few of the many amazing feedbacks we get every week."
       />
 
