@@ -26,7 +26,9 @@ const SidebarLinks = () => {
         <span className="sidebar-link">
           about <FaAngleDown />
         </span>
-        <div onClick={closeSidebar}>{menu.aboutMenu && <AboutLinks />}</div>
+        <div onClick={closeSidebar} className={menu.aboutMenu ? 'show' : ''}>
+          <AboutLinks />
+        </div>
       </li>
 
       {/* services */}
@@ -34,8 +36,8 @@ const SidebarLinks = () => {
         <span className="sidebar-link">
           services <FaAngleDown />
         </span>
-        <div onClick={closeSidebar}>
-          {menu.servicesMenu && <ServicesLinks />}
+        <div onClick={closeSidebar} className={menu.servicesMenu ? 'show' : ''}>
+          <ServicesLinks />
         </div>
       </li>
     </Wrapper>
@@ -52,8 +54,8 @@ const Wrapper = styled.ul`
     letter-spacing: var(--letterSpacing);
     display: block;
     font-weight: bold;
-    color: var(--clr-primary);
-    background: var(--grey-1);
+    color: var(--white);
+    background: var(--grey-8);
     cursor: pointer;
     transition: var(--transition);
 
@@ -66,6 +68,16 @@ const Wrapper = styled.ul`
       color: var(--white);
       border-left: 4px solid var(--clr-secondary);
     }
+  }
+
+  li div {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s linear;
+  }
+
+  li div.show {
+    max-height: 400px;
   }
 
   li div ul {

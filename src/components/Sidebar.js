@@ -43,8 +43,8 @@ const SidebarContainer = styled.aside`
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: var(--white);
+    min-height: 100%;
+    background: var(--grey-8);
     transition: var(--transition);
     transform: translate(-100%);
     z-index: -1;
