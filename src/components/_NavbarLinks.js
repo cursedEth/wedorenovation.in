@@ -6,25 +6,24 @@ import { Link } from 'react-router-dom';
 import { FaAngleDown } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 
-const NavigationLinks = () => {
+const NavbarLinks = () => {
   // data from context
-  const { closeSidebar } = useGlobalContext();
-
-  // state
-  const [menu, setMenu] = useState({ aboutMenu: false, servicesMenu: false });
-
-  // functions
-  const openAboutMenu = () => setMenu({ ...menu, aboutMenu: true });
-  const closeAboutMenu = () => setMenu({ ...menu, aboutMenu: false });
-  const openServicesMenu = () => setMenu({ ...menu, servicesMenu: true });
-  const closeServicesMenu = () => setMenu({ ...menu, servicesMenu: false });
+  const {
+    menu,
+    openAboutMenu,
+    closeAboutMenu,
+    openServicesMenu,
+    closeServicesMenu,
+    toggleAboutMenu,
+    toggleServicesMenu,
+  } = useGlobalContext();
 
   // jsx
   return (
-    <Wrapper className="links">
+    <Wrapper>
       {/* home */}
       <article>
-        <Link to="/" onClick={closeSidebar}>
+        <Link to="/">
           <button className="nav-link">home</button>
         </Link>
       </article>
@@ -34,17 +33,12 @@ const NavigationLinks = () => {
         className="about-links"
         onMouseEnter={openAboutMenu}
         onMouseLeave={closeAboutMenu}
+        onClick={toggleAboutMenu}
       >
         <button className="nav-link">
           about <FaAngleDown />
         </button>
-        <div
-          className={`dropdown ${menu.aboutMenu ? 'show-dropdown' : ''}`}
-          onClick={() => {
-            closeAboutMenu();
-            closeSidebar();
-          }}
-        >
+        <div className={`dropdown ${menu.aboutMenu ? 'show-dropdown' : ''}`}>
           <AboutLinks />
         </div>
       </article>
@@ -54,17 +48,12 @@ const NavigationLinks = () => {
         className="services-links"
         onMouseEnter={openServicesMenu}
         onMouseLeave={closeServicesMenu}
+        onClick={toggleServicesMenu}
       >
         <button className="nav-link">
           services <FaAngleDown />
         </button>
-        <div
-          className={`dropdown ${menu.servicesMenu ? 'show-dropdown' : ''}`}
-          onClick={() => {
-            closeServicesMenu();
-            closeSidebar();
-          }}
-        >
+        <div className={`dropdown ${menu.servicesMenu ? 'show-dropdown' : ''}`}>
           <ServicesLinks />
         </div>
       </article>
@@ -73,10 +62,14 @@ const NavigationLinks = () => {
 };
 
 const Wrapper = styled.div`
-  display: flex;
+  display: none;
   justify-content: space-around;
   align-items: center;
   gap: 3rem;
+
+  @media (min-width: 992px) {
+    display: flex;
+  }
 
   .nav-link {
     cursor: pointer;
@@ -145,4 +138,4 @@ const Wrapper = styled.div`
   /* end of dropdown menu */
 `;
 
-export default NavigationLinks;
+export default NavbarLinks;

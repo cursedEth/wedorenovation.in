@@ -9,14 +9,12 @@ const AboutLinks = () => {
       {/* router links */}
       <li>
         <Link to="/about" className="link" title="About Us">
-          {/* <BiChevronRight /> */}
           who we are
         </Link>
       </li>
 
       <li>
         <Link to="/faqs" className="link" title="Frequently Asked Questions">
-          {/* <BiChevronRight /> */}
           FAQs
         </Link>
       </li>

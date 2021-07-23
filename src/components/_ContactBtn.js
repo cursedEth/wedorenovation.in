@@ -13,14 +13,18 @@ const ContactBtn = () => {
 };
 
 const Wrapper = styled.div`
+  background: var(--clr-gradient);
+  display: inline-block;
+  border-radius: var(--borderRadius);
+
   .contact-btn {
-    background: var(--clr-secondary);
+    background: var(--clr-gradient);
     border: 2px solid var(--clr-primary);
     padding: 0.4rem 1.5rem;
     margin: 0 auto;
 
     &:hover {
-      background: var(--clr-gradient);
+      background: var(--clr-secondary);
     }
   }
 `;

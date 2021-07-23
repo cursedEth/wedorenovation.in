@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
-import NavigationLinks from './_NavigationLinks';
+import SidebarLinks from './_SidebarLinks';
 
 const Sidebar = () => {
   // data from context
@@ -23,9 +24,7 @@ const Sidebar = () => {
         </header>
 
         {/* sidebar-links */}
-        <div className="sidebar-links">
-          <NavigationLinks />
-        </div>
+        <SidebarLinks />
 
         {/* Contact-btn */}
         <span onClick={closeSidebar}>
@@ -39,49 +38,12 @@ const Sidebar = () => {
 const SidebarContainer = styled.aside`
   text-align: center;
 
-  .sidebar-links {
-    margin-bottom: 4rem;
-    width: 100%;
-
-    .links {
-      width: 100%;
-      display: grid;
-      grid-template-rows: 200px 200px auto;
-      gap: 1rem;
-      align-items: flex-start;
-      justify-content: stretch;
-      background: var(--clr-gradient);
-
-      ul {
-        padding-top: 0;
-      }
-
-      .nav-link {
-        text-transform: uppercase;
-        padding: 1rem;
-        font-size: 1rem;
-        width: 100%;
-        letter-spacing: var(--letterSpacing);
-        display: block;
-        font-weight: bold;
-        a {
-          color: var(--clr-white);
-        }
-        &:hover {
-          background: var(--clr-gradient);
-          color: var(--white);
-          border-left: 4px solid var(--clr-secondary);
-        }
-      }
-    }
-  }
-
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     background: var(--white);
     transition: var(--transition);
     transform: translate(-100%);
@@ -106,7 +68,7 @@ const SidebarContainer = styled.aside`
     padding: 1rem 1.5rem;
     background: var(--clr-secondary);
     height: 5rem;
-    border-bottom: 4px solid var(--clr-primary);
+    border-bottom: 4px solid rgb(226, 39, 39);
 
     .sidebar-btn {
       align-self: center;

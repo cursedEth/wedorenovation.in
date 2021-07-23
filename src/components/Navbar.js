@@ -4,7 +4,7 @@ import Logo from './_Logo';
 import ContactBtn from './_ContactBtn';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
-import NavigationLinks from './_NavigationLinks';
+import NavbarLinks from './_NavbarLinks';
 
 const Navbar = () => {
   // data from context
@@ -23,9 +23,7 @@ const Navbar = () => {
         </div>
 
         {/* nav-links */}
-        <div className="nav-links">
-          <NavigationLinks />
-        </div>
+        <NavbarLinks />
 
         {/* contact-btn */}
         <ContactBtn />
@@ -67,12 +65,6 @@ const NavContainer = styled.nav`
       &:hover {
         transform: scale(1.1);
       }
-    }
-  }
-
-  @media (max-width: 992px) {
-    .nav-links {
-      display: none;
     }
   }
 
