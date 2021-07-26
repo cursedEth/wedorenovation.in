@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/faqs">
           <FAQs />
         </Route>
-        <Route exact path="/:service" children={<SingleService />} />
+        <Route exact path="/:serviceURL" children={<SingleService />} />
         <Route exact path="/contact">
           <Contact />
         </Route>

@@ -27,57 +27,44 @@ export const aboutLinks = [
 export const servicesLinks = [
   {
     id: 1,
-    text: 'renovation',
-    url: '/renovation',
-    title: 'Renovation',
+    text: 'remodeling & renovation',
+    url: 'remodeling-and-renovation',
+    title: 'Remodeling, Renovation & Designing',
   },
+
   {
     id: 2,
-    text: 'painting',
-    url: '/painting',
-    title: 'Painting',
+    text: 'construction',
+    url: 'construction',
+    title: 'Construction',
   },
+
   {
     id: 3,
-    text: 'construction',
-    url: '/construction',
-    title: 'construction',
+    text: 'painting',
+    url: 'painting',
+    title: 'Painting',
   },
+
   {
     id: 4,
-    text: 'waterproofing',
-    url: '/waterproofing',
-    title: 'Water & Heat Proofing',
+    text: 'waterproofing & heatproofing',
+    url: 'waterproofing-and-heatproofing',
+    title: 'Waterproofing & Heatproofing',
   },
+
   {
     id: 5,
     text: 'remodeling & designing',
-    url: '/remodeling-designing',
-    title: 'Remodeling & Designing',
+    url: 'interior-and-exterior-decoration',
+    title: 'Interior & Exterior Decoration',
   },
+
   {
     id: 6,
-    text: 'aluminium, glass & metal',
-    url: '/aluminium-glass-metal',
-    title: 'Aluminum, Glass & Metal Works',
-  },
-  {
-    id: 7,
-    text: 'wood work',
-    url: '/wood-work',
-    title: 'Wood Works',
-  },
-  {
-    id: 8,
-    text: 'plumbing',
-    url: '/plumbing',
-    title: 'plumbing',
-  },
-  {
-    id: 9,
-    text: 'decoration',
-    url: '/decoration',
-    title: 'Interior & Exterior Decoration',
+    text: 'aluminium, uPVC & metal',
+    url: 'aluminium-upvc-glass-works',
+    title: 'Aluminum, uPVC & Glass Work',
   },
 ];
 

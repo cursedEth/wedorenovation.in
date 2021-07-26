@@ -45,7 +45,7 @@ export const skills = [
 export const services = [
   {
     id: 1,
-    name: 'Remodeling & Renovation',
+    name: 'Remodeling, Renovation & Designing',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -53,6 +53,7 @@ export const services = [
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
+    url: 'remodeling-and-renovation',
   },
   {
     id: 2,
@@ -64,6 +65,7 @@ export const services = [
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
+    url: 'construction',
   },
   {
     id: 3,
@@ -75,6 +77,7 @@ export const services = [
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
+    url: 'painting',
   },
   {
     id: 4,
@@ -86,10 +89,11 @@ export const services = [
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
+    url: 'waterproofing-and-heatproofing',
   },
   {
     id: 5,
-    name: 'Interrior & Exterior Decoration',
+    name: 'Interior & Exterior Decoration',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -97,10 +101,11 @@ export const services = [
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
+    url: 'interior-and-exterior-decoration',
   },
   {
     id: 6,
-    name: 'Aluminum, uPVC & Glass Work',
+    name: 'Aluminum, uPVC, & Glass Work',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -108,6 +113,7 @@ export const services = [
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
+    url: 'aluminium-upvc-glass-works',
   },
 ];
 

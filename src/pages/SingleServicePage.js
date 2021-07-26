@@ -8,16 +8,14 @@ const SingleServicePage = () => {
   const [loading, setLoading] = useState(true);
 
   // get the service from the url
-  const { service: serviceName } = useParams();
+  const { serviceURL } = useParams();
 
   // useEffect
   useEffect(() => {
-    const newService = services.find(
-      (service) => service.name.toLowerCase() === serviceName
-    );
+    const newService = services.find((service) => service.url === serviceURL);
     setService(newService);
     setLoading(false);
-  }, [serviceName]);
+  }, [serviceURL]);
 
   if (loading) {
     return <div className="loading"></div>;

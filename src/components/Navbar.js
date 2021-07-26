@@ -70,6 +70,7 @@ const NavContainer = styled.nav`
 
   .contact-btn {
     display: none;
+    background: transparent;
   }
 
   @media (min-width: 992px) {
@@ -81,6 +82,11 @@ const NavContainer = styled.nav`
     }
     .contact-btn {
       display: block;
+      background: var(--clr-secondary);
+
+      &:hover {
+        background: var(--clr-primary);
+      }
     }
   }
 `;
