@@ -37,7 +37,7 @@ const Services = () => {
 
         {/* service info */}
         <article className="service">
-          <div className={`img-container ${count % 2 !== 0 && 'change-order'}`}>
+          <div className="img-container">
             <img src={image[0]} alt={name} />
           </div>
 
@@ -71,11 +71,11 @@ const Wrapper = styled.section`
       .service-btn:nth-child(4),
       .service-btn:nth-child(5),
       .service-btn:nth-child(6) {
-        border: 1px solid;
+        border: 1px solid var(--grey-4);
         border-right: none;
       }
       .service-btn:nth-child(6) {
-        border: 1px solid;
+        border: 1px solid var(--grey-4);
       }
 
       .service-btn {
@@ -107,14 +107,14 @@ const Wrapper = styled.section`
   .service-btn {
     cursor: pointer;
     background: transparent;
-    border: 1px solid;
+    border: 1px solid var(--grey-4);
     display: grid;
     place-items: center;
     padding: 1rem 0.5rem;
     transition: var(--transition);
 
     &:hover {
-      background: var(--grey-3);
+      background: var(--grey-2);
     }
 
     svg {
@@ -166,9 +166,6 @@ const Wrapper = styled.section`
         height: 25rem;
         border-radius: var(--borderRadius);
       }
-    }
-    .img-container.change-order {
-      order: 1;
     }
     .info-container {
       margin: 0 auto;
