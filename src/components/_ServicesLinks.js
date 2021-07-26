@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { servicesLinks as links } from '../utils/constants';
 
+// * COMPONENTS
 const ServicesLinks = () => {
   return (
     <Wrapper>
@@ -19,6 +20,7 @@ const ServicesLinks = () => {
   );
 };
 
+// * STYLES
 const Wrapper = styled.ul`
   .link {
     color: var(--grey-4);
