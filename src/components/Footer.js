@@ -15,7 +15,7 @@ const Footer = () => {
 const Wrapper = styled.footer`
   height: 4rem;
   text-align: center;
-  background: #101010;
+  background: #111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ const Wrapper = styled.footer`
   padding: 0 0.25rem;
 
   span {
-    color: var(--clr-primary);
+    color: var(--clr-primary-light);
   }
 
   h5 {
