@@ -5,6 +5,12 @@ import {
   FaUsers,
   FaMapMarkerAlt,
 } from 'react-icons/fa';
+import { GiAutoRepair, GiPaintRoller, GiInfestedMass } from 'react-icons/gi';
+import {
+  IoConstructOutline,
+  IoWaterOutline,
+  IoListCircleOutline,
+} from 'react-icons/io5';
 import { AiOutlineSafetyCertificate, AiOutlineBarChart } from 'react-icons/ai';
 
 // skills - [HOMEPAGE]
@@ -45,7 +51,9 @@ export const skills = [
 export const services = [
   {
     id: 1,
-    name: 'Remodeling, Renovation & Designing',
+    icon: <GiAutoRepair />,
+    name: 'renovation',
+    title: 'Remodeling, Renovation & Designing',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -55,45 +63,57 @@ export const services = [
     ],
     url: 'remodeling-and-renovation',
   },
+
   {
     id: 2,
-    name: 'Construction',
+    icon: <IoConstructOutline />,
+    name: 'construction',
+    title: 'Construction Services',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
-      'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
     url: 'construction',
   },
+
   {
     id: 3,
-    name: 'Painting',
+    icon: <GiPaintRoller />,
+    name: 'painting',
+    title: 'Painting Services',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
+      'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
     url: 'painting',
   },
+
   {
     id: 4,
-    name: 'Waterproofing & Heatproofing',
+    icon: <IoWaterOutline />,
+    name: 'proofing',
+    title: 'Waterproofing & Heatproofing',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
+      'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],
     url: 'waterproofing-and-heatproofing',
   },
+
   {
     id: 5,
-    name: 'Interior & Exterior Decoration',
+    icon: <GiInfestedMass />,
+    name: 'decoration',
+    title: 'Interior & Exterior Decoration',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -103,13 +123,16 @@ export const services = [
     ],
     url: 'interior-and-exterior-decoration',
   },
+
   {
     id: 6,
-    name: 'Aluminum, uPVC, & Glass Work',
+    icon: <IoListCircleOutline />,
+    name: 'others',
+    title: 'Aluminum, uPVC, & Glass Work',
     desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
     image: [
-      'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     ],

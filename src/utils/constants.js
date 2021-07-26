@@ -27,7 +27,7 @@ export const aboutLinks = [
 export const servicesLinks = [
   {
     id: 1,
-    text: 'remodeling & renovation',
+    text: 'renovation',
     url: 'remodeling-and-renovation',
     title: 'Remodeling, Renovation & Designing',
   },
@@ -48,21 +48,21 @@ export const servicesLinks = [
 
   {
     id: 4,
-    text: 'waterproofing & heatproofing',
+    text: 'proofing',
     url: 'waterproofing-and-heatproofing',
     title: 'Waterproofing & Heatproofing',
   },
 
   {
     id: 5,
-    text: 'remodeling & designing',
+    text: 'decoration',
     url: 'interior-and-exterior-decoration',
     title: 'Interior & Exterior Decoration',
   },
 
   {
     id: 6,
-    text: 'aluminium, uPVC & metal',
+    text: 'other works',
     url: 'aluminium-upvc-glass-works',
     title: 'Aluminum, uPVC & Glass Work',
   },

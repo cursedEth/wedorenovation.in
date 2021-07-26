@@ -70,10 +70,6 @@ const Wrapper = styled.section`
       grid-template-columns: auto auto auto;
     }
 
-    @media (min-width: 1170px) {
-      gap: 4rem;
-    }
-
     h5 {
       text-transform: uppercase;
     }

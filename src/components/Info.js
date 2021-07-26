@@ -41,8 +41,8 @@ const Info = () => {
 const Wrapper = styled.section`
   .section-center {
     display: grid;
-    place-items: center;
-    gap: 1rem;
+    align-items: center;
+    gap: 3rem;
 
     @media (min-width: 792px) {
       grid-template-columns: 1fr 1fr;
@@ -56,9 +56,6 @@ const Wrapper = styled.section`
   .info-container {
     h2 {
       margin-bottom: 2rem;
-    }
-    span {
-      color: var(--clr-primary);
     }
     p {
       margin-left: auto;

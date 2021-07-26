@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { servicesLinks as links } from '../utils/constants';
-import { BiChevronRight } from 'react-icons/bi';
 
 // * COMPONENTS
 const ServicesLinks = () => {
@@ -12,7 +11,7 @@ const ServicesLinks = () => {
         return (
           <li key={id}>
             <Link to={`/${url}`} className="link" title={title}>
-              <BiChevronRight /> {text}
+              {text}
             </Link>
           </li>
         );
@@ -26,11 +25,6 @@ const Wrapper = styled.ul`
   .link {
     color: var(--grey-4);
     text-transform: capitalize;
-
-    svg {
-      vertical-align: middle;
-      color: var(--clr-primary);
-    }
 
     &:hover {
       color: var(--white);
