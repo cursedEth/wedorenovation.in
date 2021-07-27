@@ -7,11 +7,11 @@ import { servicesLinks as links } from '../utils/constants';
 const ServicesLinks = () => {
   return (
     <Wrapper>
-      {links.map(({ id, url, title, text }) => {
+      {links.map(({ id, url, title, name }) => {
         return (
           <li key={id}>
             <Link to={`/${url}`} className="link" title={title}>
-              {text}
+              {name}
             </Link>
           </li>
         );

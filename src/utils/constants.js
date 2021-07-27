@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaRegEnvelope,
 } from 'react-icons/fa';
+import { services } from './data';
 
 // about links
 export const aboutLinks = [
@@ -24,49 +25,15 @@ export const aboutLinks = [
 ];
 
 // services links
-export const servicesLinks = [
-  {
-    id: 1,
-    text: 'renovation',
-    url: 'remodeling-and-renovation',
-    title: 'Remodeling, Renovation & Designing',
-  },
-
-  {
-    id: 2,
-    text: 'construction',
-    url: 'construction',
-    title: 'Construction',
-  },
-
-  {
-    id: 3,
-    text: 'painting',
-    url: 'painting',
-    title: 'Painting',
-  },
-
-  {
-    id: 4,
-    text: 'proofing',
-    url: 'waterproofing-and-heatproofing',
-    title: 'Waterproofing & Heatproofing',
-  },
-
-  {
-    id: 5,
-    text: 'decoration',
-    url: 'interior-and-exterior-decoration',
-    title: 'Interior & Exterior Decoration',
-  },
-
-  {
-    id: 6,
-    text: 'other works',
-    url: 'aluminium-upvc-glass-works',
-    title: 'Aluminum, uPVC & Glass Work',
-  },
-];
+export const servicesLinks = services.map((service) => {
+  const { id, url, name, title } = service;
+  return {
+    id,
+    url,
+    name,
+    title,
+  };
+});
 
 // contact links
 export const contactLinks = [

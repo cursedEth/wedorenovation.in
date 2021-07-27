@@ -143,7 +143,7 @@ export const services = [
     icon: <GiTeePipe />,
     name: 'others',
     title: 'Aluminum, uPVC, & Glass Work',
-    desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
+    desc: `We provide all kinds of other related services including ALUMINIUM and METAL works, uPVC, GLASS, and WOOD works. We also have a very experienced crew for PLUMBING services. This includes, but is not limited to creating doors and windows (metal as well as wood ones), fabircation sheets, glass windows, creating durable cost effective frames, fixing and repairing water pipes, and so much more. We have one and all the things you need to upgrade your place.`,
     quote: `Because you deserve the best.`,
     image: [
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
