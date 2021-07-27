@@ -245,10 +245,12 @@ export const galleryWorks = [
 export const teamMembers = [
   {
     id: 1,
-    name: 'Sameer',
-    title: 'CEO/Founder',
+    name: 'Durgesh',
+    title: 'Developer & Digital Creator',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1615844912/images%20of%20random%20people%20for%20projects/two_jejwvt.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627386088/sameer-renovation-website/team-members/IMG_20200304_104221_pldudd.webp',
+    mail: '48durgesh.kumar@gmail.com',
+    social: 'https://twitter.com/yodkwtf',
   },
   {
     id: 2,

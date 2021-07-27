@@ -1,33 +1,52 @@
 import React, { useEffect, useState } from 'react';
 import { services } from '../utils/data';
-import { Link, useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import PageTitle from './_PageTitle';
 import ServiceGallery from './_ServiceGallery';
+import ErrorPage from './ErrorPage';
 
 //* COMPONENTS
 const SingleServicePage = () => {
   // state
   const [service, setService] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
   // get the service from the url
   const { serviceURL } = useParams();
+  const history = useHistory();
 
-  // useEffect
+  // useEffect to update single service
   useEffect(() => {
     const newService = services.find((service) => service.url === serviceURL);
-    setService(newService);
+    if (newService) {
+      setService(newService);
+    } else {
+      setError(true);
+    }
     setLoading(false);
   }, [serviceURL]);
 
-  // destructuring
-  const { title, desc, image } = service;
+  // useEffect to push user back to home
+  useEffect(() => {
+    if (error) {
+      setTimeout(() => {
+        history.push('/');
+      }, 3000);
+    }
+  }, [error, history]);
 
   // jsx
+  if (error) {
+    return <ErrorPage />;
+  }
   if (loading) {
     return <div className="loading"></div>;
   }
+
+  // destructuring
+  const { title, desc, image } = service;
 
   return (
     <Wrapper>
@@ -41,11 +60,6 @@ const SingleServicePage = () => {
             <p>{desc}</p>
           </div>
         </div>
-        <div className="btn-container">
-          <Link to="/" className="btn">
-            back to home
-          </Link>
-        </div>
       </div>
     </Wrapper>
   );
@@ -53,11 +67,6 @@ const SingleServicePage = () => {
 
 // *STYLES
 const Wrapper = styled.section`
-  .btn-container {
-    margin-top: 3rem;
-    text-align: center;
-  }
-
   .service-center {
     display: grid;
     gap: 3rem;

@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import PageTitle from './_PageTitle';
 import { Title } from '../components';
 import { teamMembers } from '../utils/data';
+import { FaComments, FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 // *COMPONENTS
 
@@ -14,20 +16,26 @@ const AboutPage = () => {
       {/* WHO WE ARE */}
       <section className="section section-center">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quae illo
-          ducimus ut! Eveniet, mollitia dignissimos ipsum ducimus expedita nihil
-          quas et, cum eum distinctio ex sequi error nisi est culpa maiores
-          reprehenderit. Quibusdam rerum non sapiente incidunt error autem quia
-          iste, ab dolore doloribus est veritatis totam nobis sunt sint placeat
-          voluptates voluptatibus debitis vel quo minima officiis maxime.
+          Greetings from Home™ Renovation. We are the best Painting, Renovation
+          and Construction service providers for more than 61 years as this
+          being our family business since 1960. We are a group of contractors
+          providing you the best quality of work with no compromises.
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quam et
-          culpa recusandae est, iusto cupiditate neque reiciendis praesentium
-          tenetur? Rerum eligendi quibusdam nihil. Et temporibus aspernatur,
-          maiores deserunt voluptas nemo voluptatem dolores voluptatum fugiat
-          repudiandae voluptate commodi aliquid beatae.
+          We providing services like : Whitewash and Wall Painting/designs,
+          P.O.P work, Mason & civil work water and heat proofing, Glass and
+          Aluminium work, Wood Work & polishing, Metal Fabrication and welding
+          work, Tiles & marble Flooring and polishing, Bathroom & kitchen
+          Remodeling Interior decoration & Renovation, Fibre sheet and sunshed
+          work, Plumbing, Electrical wiring etc To all Houses, Offices,
+          Apartments, schools, colleges, factories, shops, showroom & Buildings
+          etc.
+        </p>
+        <br />
+        <p>
+          Book your free site visit now or get a free no obligation quote{' '}
+          <Link to="/contact">here</Link>.
         </p>
       </section>
 
@@ -48,7 +56,7 @@ const AboutPage = () => {
   );
 };
 
-const SingleTeamMember = ({ avatar, name, title }) => {
+const SingleTeamMember = ({ avatar, name, title, mail, social }) => {
   return (
     <article className="team-member">
       <div className="img-container">
@@ -56,6 +64,14 @@ const SingleTeamMember = ({ avatar, name, title }) => {
       </div>
       <h3>{name}</h3>
       <h5>{title}</h5>
+      <div className="socials">
+        <a href={`mailto:${mail}`} title="Email">
+          <FaEnvelope />
+        </a>
+        <a href={social} title="Contact via Text">
+          <FaComments />
+        </a>
+      </div>
     </article>
   );
 };
@@ -65,10 +81,16 @@ const Wrapper = styled.main`
   .section-center p {
     margin: 0 auto;
     text-align: center;
+
+    a {
+      color: var(--clr-primary);
+      font-weight: bold;
+      text-decoration: underline;
+    }
   }
 
   .team {
-    background: var(--clr-primary-light);
+    background: var(--grey-7);
 
     .title {
       color: var(--backgroundColor);
@@ -80,18 +102,18 @@ const Wrapper = styled.main`
     .section-center {
       display: grid;
       gap: 4rem;
-      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
     .team-member {
       background: var(--white);
       text-align: center;
-      border-radius: 1rem;
-      box-shadow: var(--shadow-3);
+      border-radius: 0.25rem;
+      box-shadow: var(--shadow-1);
       transition: var(--transition);
 
       &:hover {
-        box-shadow: var(--shadow-4);
+        box-shadow: var(--shadow-3);
       }
 
       h3 {
@@ -102,11 +124,28 @@ const Wrapper = styled.main`
       h5 {
         text-transform: uppercase;
         font-style: italic;
+        margin-bottom: 0;
+      }
+
+      .socials {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem 0.5rem;
+
+        svg {
+          transition: var(--transition);
+          color: var(--black);
+          font-size: 2rem;
+          &:hover {
+            color: var(--clr-primary-light);
+          }
+        }
       }
 
       img {
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        aspect-ratio: 4/3;
       }
     }
   }

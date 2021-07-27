@@ -15,7 +15,7 @@ const ServiceGallery = ({ images, title }) => {
             <img
               key={index}
               src={image}
-              alt="image"
+              alt="service"
               loading="lazy"
               onClick={() => setMainImg(images[index])}
               className={`${image === mainImg && 'active'}`}
