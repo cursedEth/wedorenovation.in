@@ -51,10 +51,6 @@ const SingleQuestion = ({ ques, ans }) => {
 //* STYLES
 
 const Wrapper = styled.section`
-  .section-center {
-    /* text-align: left; */
-  }
-
   .question {
     max-width: 60rem;
     margin: 0 auto;

@@ -38,7 +38,7 @@ const Services = () => {
         {/* service info */}
         <article className="service">
           <div className="img-container">
-            <img src={image[0]} alt={name} />
+            <img src={image[0]} alt={name} loading="lazy" />
           </div>
 
           <div className="info-container">
