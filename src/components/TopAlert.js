@@ -29,7 +29,7 @@ const TopAlert = () => {
       >
         <div>
           <p>
-            Book a free site visit. Call us at &nbsp;
+            Get a free estimate now. Call at&nbsp;
             <a href="tel:8800805388" className="link" title="Call Us Now!">
               8800805388
             </a>
