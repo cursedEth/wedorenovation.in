@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import infoImg from '../assets/info-img.webp';
+import infoImg from '../assets/info-img.svg';
 
 const Info = () => {
   return (
@@ -65,7 +65,6 @@ const Wrapper = styled.section`
 
   .img-container {
     display: none;
-    box-shadow: var(--shadow-3);
 
     img {
       max-height: 28rem;

@@ -61,10 +61,10 @@ export const services = [
     icon: <Gi3DStairs />,
     name: 'renovation',
     title: 'Remodeling, Renovation & Designing',
-    desc: `Aren't you tired of the classic old looks of your house? Just like everything else, your house should change with time too! We can make that happen and we'll do it in a way that you won't be able to take your eyes off your house. We'll remodel your old simple bedrooms, kitchens, bathrooms, etc. to the latest trends and give them the modern look you deserve. We take complete responsibility providing you a wonderful ambiance It's not RENOVATION, it's RE-NEW-INNOVATION for us.`,
+    desc: `Aren't you tired of the classic old looks of your house? Just like everything else, your house should change with time too! We can make that happen and we'll do it in a way that you won't be able to take your eyes off your house. We'll remodel your old simple bedrooms, kitchens, bathrooms, etc. to the latest trends and give them the modern look you deserve. We take complete responsibility providing you a wonderful ambiance. When we work with you, it's not RENOVATION, it's RE-NEW-INNOVATION.`,
     quote: `Converting houses into homes since 1960s.`,
     image: [
-      'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627403710/sameer-renovation-website/services/renovation/renovation_xk9iye.webp',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -78,10 +78,10 @@ export const services = [
     name: 'construction',
     title: 'Construction Services',
     desc: `With Home™ Renovation, you're not just building a house, you're making dreams happen!
-    A home is the biggest investment most people will ever make and we make sure that your perfect home dream comes true. Aside from building homes, we build all kinds of offices, apartments, schools, colleges, factories, shops, showrooms, and buildings. We offer our clients direct access to a team of highly qualified and experienced specialists offering consultancy services in preliminary work, building design, construction management as well as construction supervision and maintenance work.`,
+    A home is the biggest investment most people will ever make and we make sure that your perfect home dream comes true. Aside from building homes, we build all kinds of offices, apartments, schools, colleges, factories, shops, showrooms, buildings, etc. We offer our clients direct access to a team of highly qualified and experienced specialists offering consultancy services in preliminary work, building design, construction management as well as construction supervision and maintenance work.`,
     quote: `Extraordinary service for extraordinary customers.`,
     image: [
-      'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627406694/sameer-renovation-website/services/construction/construction_omt2w5.webp',
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -97,7 +97,7 @@ export const services = [
     desc: `Give new looks to your walls and ceilings by our experience eye for design. We do all kinds of latest trendy designs, textures, patterns, and paints. Home™ Renovation guarantees you to present with the best of its confirmed experts. We interface you with very much prepared painters who will investigate every possibility while painting your home, office or business space. Home™ Renovation gives a scope of custom best painting services , taking into account a smooth, consistent experience and uncommon outcome in every place.`,
     quote: `Exceeding expectations is our motto.`,
     image: [
-      'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627406703/sameer-renovation-website/services/painting/painting_u18kkh.webp',
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -110,8 +110,8 @@ export const services = [
     icon: <GiWaterSplash />,
     name: 'proofing',
     title: 'Waterproofing & Heatproofing',
-    desc: `As your house gets old, it's very common to see dampness(silan) in the walls. You can keep repairing it with paint every year but it just increase the cost and the problem doesn't get solved. WELL, the solution is WATER PROOFING. Get your house water proofed by us at a very reasonable cost and we'll get rid of the problem once and for all.    
-    We also do HEAT PROOFING. It is a simple and effective way to protect building Structure from harmful heat waves. This anti-heat system reflects heat backwards and It may be applied on concrete, wooden, metal structures so properties in hot sunny weather save energy and money`,
+    desc: `As your house gets old, it's very common to see dampness(silan) in the walls. You can keep repairing it with paint every year but it just increases the cost and the problem doesn't get solved. WELL, the solution is WATER PROOFING. Get your house water proofed by us at a very reasonable cost and we'll get rid of the problem once and for all.    
+    We also do HEAT PROOFING which is a simple and effective way to protect building structure from harmful heat waves. This anti-heat system reflects heat backwards and it may be applied on concrete, wooden, and metal structures.`,
     quote: `We repair what your husband fixed.`,
     image: [
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -127,10 +127,10 @@ export const services = [
     icon: <GiAbstract036 />,
     name: 'decoration',
     title: 'Interior & Exterior Decoration',
-    desc: 'Wolf prism affogato kombucha franzen biodiesel post-ironic taiyaki gluten-free meggings twee organic crucifix pop-up. Church-key hoodie actually, meh lo-fi echo park skateboard jean shorts everyday carry shaman slow-carb kogi butcher VHS schlitz. Helvetica mixtape subway tile, enamel pin bespoke bicycle rights fashion axe hell of lomo fam single-origin coffee. Tattooed chia semiotics irony, butcher austin gastropub locavore shaman vaporware fanny pack 3 wolf moon retro fingerstache readymade. Tattooed shabby chic hexagon, locavore pug semiotics microdosing.',
+    desc: `Is it a special function? Do you want your place to look extra beautiful today? Well, say no more and leave it to us! We do all kinds of interior and exterior decorations and we do it in such a way that you'll want to contact us every weekend to make your place look like a living heaven. We work with you to discuss the look you want and the things you'd like to see including lights, flowers, candles, and so much more.`,
     quote: `Why do it yourself? Leave it to the pros.`,
     image: [
-      'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627408335/sameer-renovation-website/services/decoration/decoration_rzbu1q.webp',
       'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -146,7 +146,7 @@ export const services = [
     desc: `We provide all kinds of other related services including ALUMINIUM and METAL works, uPVC, GLASS, and WOOD works. We also have a very experienced crew for PLUMBING services. This includes, but is not limited to creating doors and windows (metal as well as wood ones), fabircation sheets, glass windows, creating durable cost effective frames, fixing and repairing water pipes, and so much more. We have one and all the things you need to upgrade your place.`,
     quote: `Because you deserve the best.`,
     image: [
-      'https://images.pexels.com/photos/72138/pexels-photo-72138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627408346/sameer-renovation-website/services/other-works/other-works_yi6xmf.webp',
       'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/191648/pexels-photo-191648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
@@ -256,7 +256,7 @@ export const teamMembers = [
     name: 'Durgesh',
     title: 'Developer & Digital Creator',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627386088/sameer-renovation-website/team-members/IMG_20200304_104221_pldudd.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627402224/sameer-renovation-website/team-members/IMG_20210228_142914_ukk88l.webp',
     mail: '48durgesh.kumar@gmail.com',
     social: 'https://twitter.com/yodkwtf',
   },
