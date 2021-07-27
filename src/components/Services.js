@@ -8,7 +8,7 @@ const Services = () => {
   const [count, setCount] = useState(0);
 
   // destructuring single service
-  const { name, title, desc, image } = services[count];
+  const { name, title, desc, quote, image } = services[count];
 
   // jsx
   return (
@@ -44,6 +44,7 @@ const Services = () => {
           <div className="info-container">
             <h3>{title}</h3>
             <p>{desc}</p>
+            <blockquote>{quote}</blockquote>
           </div>
         </article>
       </div>

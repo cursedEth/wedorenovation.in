@@ -282,3 +282,11 @@ img {
 .page-100 {
   min-height: calc(100vh - 375px);
 }
+
+blockquote {
+  margin-top: 1rem;
+  padding: 0.25rem 1rem;
+  border-left: 4px solid var(--black);
+  font-size: 1.25rem;
+  font-style: oblique;
+}

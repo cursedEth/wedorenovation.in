@@ -46,7 +46,7 @@ const SingleServicePage = () => {
   }
 
   // destructuring
-  const { title, desc, image } = service;
+  const { title, desc, image, quote } = service;
 
   return (
     <Wrapper>
@@ -58,6 +58,7 @@ const SingleServicePage = () => {
           <div className="info">
             <h2>{title}</h2>
             <p>{desc}</p>
+            <blockquote>{quote}</blockquote>
           </div>
         </div>
       </div>
@@ -76,8 +77,11 @@ const Wrapper = styled.section`
       gap: 4rem;
       align-items: center;
 
-      .info p {
-        margin: 0;
+      .info {
+        text-align: left;
+        p {
+          margin: 0;
+        }
       }
     }
   }
