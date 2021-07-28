@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 const ServiceGallery = ({ images, title }) => {
   // states
   const [mainImg, setMainImg] = useState(images[0]);
+
+  // useEffect
+  useEffect(() => {
+    setMainImg(images[0]);
+  }, [images]);
 
   // jsx
   return (
