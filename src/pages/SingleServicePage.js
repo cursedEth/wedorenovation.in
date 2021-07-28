@@ -48,8 +48,6 @@ const SingleServicePage = () => {
   // destructuring
   const { title, desc, image, quote } = service;
 
-  console.log(title);
-
   return (
     <Wrapper>
       <PageTitle title={title} subtitle="services" />
