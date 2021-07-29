@@ -35,6 +35,7 @@ const ServiceGallery = ({ images, title }) => {
 const Wrapper = styled.section`
   .main-img {
     height: 300px;
+    object-fit: contain;
   }
   img {
     border-radius: var(--borderRadius);
