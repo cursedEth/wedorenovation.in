@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import heroImg from '../assets/hero-bcg.webp';
+import heroImg from '../assets/hero-bcg.jpg';
 import { useGlobalContext } from '../context';
 import { FaPhoneAlt } from 'react-icons/fa';
 
@@ -37,8 +37,12 @@ const Hero = () => {
 };
 
 const Wrapper = styled.section`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
-    url(${heroImg}) center/cover no-repeat;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url(${heroImg}) center/cover fixed no-repeat;
   color: var(--white);
   display: grid;
   place-items: center;

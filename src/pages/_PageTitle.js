@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import heroImg from '../assets/hero-bcg.webp';
+import heroImg from '../assets/hero-bcg.jpg';
 
 const PageTitle = ({ title, subtitle }) => {
   return (
