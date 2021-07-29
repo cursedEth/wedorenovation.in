@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-const SingleGalleryImage = ({ title, url }) => {
+const SingleGalleryImage = ({ title, url, keyword }) => {
   // state
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -12,13 +12,14 @@ const SingleGalleryImage = ({ title, url }) => {
   // jsx
   return (
     <ImageContainer className="gallery-img">
-      <h3>{title}</h3>
+      <h4>{title}</h4>
       <img
         src={url}
-        alt={title}
+        alt={keyword}
         loading="lazy"
         className="image"
         onClick={openPopup}
+        title={keyword}
       />
 
       {/* popup */}
@@ -45,7 +46,11 @@ const ImageContainer = styled.article`
   text-align: center;
   height: 25rem;
 
-  &:hover h3 {
+  @media (max-width: 576px) {
+    height: 18rem;
+  }
+
+  &:hover h4 {
     transform: translate(-50%, -50%) scale(1);
   }
   &:hover .image {
@@ -53,7 +58,7 @@ const ImageContainer = styled.article`
     cursor: pointer;
   }
 
-  h3 {
+  h4 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,6 +67,10 @@ const ImageContainer = styled.article`
     color: var(--white);
     text-transform: uppercase;
     line-height: 1.5;
+
+    @media (max-width: 400px) {
+      font-size: 0.9rem;
+    }
   }
 
   .image {
