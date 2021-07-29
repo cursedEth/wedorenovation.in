@@ -9,16 +9,20 @@ html {
 
 :root {
   /*- primary colors */
-  --primary-1: #d5eff1;
-  --primary-2: #abdfe3;
-  --primary-3: #80ced6;
-  --primary-4: #56bec8;
-  /* --primary-5: #2caeba; */
-  --primary-5: #146ce7;
-  --primary-6: #238b95;
-  --primary-7: #1a6870;
-  --primary-8: #12464a;
-  --primary-9: #092325;
+  --clr-primary: #146ce7;
+  --clr-primary-light: #3f88ee;
+  --clr-secondary: #181d31;
+  --clr-gradient: linear-gradient(
+    to bottom right,
+    var(--clr-primary),
+    var(--clr-primary-light)
+  );
+
+  /* testing colors */
+  --clr-primary: #2cb67d;
+  --clr-primary-light: #078080;
+  --clr-secondary: #001e1d;
+
   /*- grey colors */
   --grey-1: #f9fafb;
   --grey-2: #f3f4f6;
@@ -36,17 +40,6 @@ html {
   --red-dark: #842029;
   --green-light: #d1e7dd;
   --green-dark: #0f5132;
-
-  /** specific colors for this one */
-  /* --clr-primary: #2caeba; */
-  --clr-primary: #146ce7;
-  --clr-primary-light: #3f88ee;
-  --clr-secondary: #181d31;
-  --clr-gradient: linear-gradient(
-    to bottom right,
-    rgba(20, 108, 231),
-    rgba(63, 136, 238)
-  );
 
   /*- set colors  */
   --backgroundColor: var(--grey-1);
