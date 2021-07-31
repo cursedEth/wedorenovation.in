@@ -6,6 +6,4 @@
 - New logo
 - Update FAQs
 - Update Team Info
-- Update Gallery Images
 - Update Reviews
-- Update service images
