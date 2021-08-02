@@ -2,8 +2,8 @@
 
 - Hosting
 - Merge on main branch
-- Optimize and meta tags
-- New logo
+- Add New logo
+- Optimize and add meta tags and keywords
+- Update Reviews
 - Update FAQs
 - Update Team Info
-- Update Reviews
