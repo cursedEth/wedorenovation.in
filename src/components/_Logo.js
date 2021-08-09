@@ -7,14 +7,16 @@ const Logo = () => {
   return (
     <LogoContainer>
       <Link to="/">
-        <img src={logo} alt="homemakers" className="logo" />
+        <img src={logo} alt="Home™ Renovation" className="logo" />
       </Link>
     </LogoContainer>
   );
 };
 
 const LogoContainer = styled.div`
-  width: 10rem;
+  .logo {
+    width: 10rem;
+  }
 `;
 
 export default Logo;

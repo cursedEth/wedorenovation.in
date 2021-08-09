@@ -55,6 +55,9 @@ const Wrapper = styled.section`
   }
 
   .info-container {
+    .logo {
+      transform: scale(1.5);
+    }
     p {
       margin-top: 1rem;
       max-width: 18rem;
