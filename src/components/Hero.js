@@ -83,6 +83,7 @@ const Wrapper = styled.section`
     font-weight: 600;
     outline: 3px solid var(--clr-primary);
     outline-offset: 5px;
+    background: var(--clr-primary);
 
     @media (max-width: 481px) {
       padding: 0.5rem 1rem;

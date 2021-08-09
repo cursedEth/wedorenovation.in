@@ -263,26 +263,72 @@ export const galleryWorks = [
 export const teamMembers = [
   {
     id: 1,
-    name: 'Durgesh',
-    title: 'Developer & Digital Creator',
+    name: 'Sameer',
+    title: 'CEO',
+    work: 'H&M exports Noida, All Cargo Logistics park Pvt Ltd , Aptara',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1627402224/sameer-renovation-website/team-members/IMG_20210228_142914_ukk88l.webp',
-    mail: '48durgesh.kumar@gmail.com',
-    social: 'https://twitter.com/yodkwtf',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628536391/sameer-renovation-website/team-members/sameer_wiob8s.webp',
+    mail: 'sameerathomerenovation@gmail.com',
   },
+
   {
     id: 2,
-    name: 'Riya',
-    title: 'Employee',
+    name: 'Abdul Khalid',
+    title: 'TBD',
+    work: 'TBD',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1615844922/images%20of%20random%20people%20for%20projects/nine_pydfjt.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1615844912/images%20of%20random%20people%20for%20projects/two_jejwvt.webp',
+    mail: 'sameerathomerenovation@gmail.com',
   },
+
   {
     id: 3,
-    name: 'John',
-    title: 'Manager',
+    name: 'Sikandar',
+    title: 'Gurugram Renovation head',
+    work: 'Eldeco , Nirvana Country, South City - 1 Gurugram',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1615844924/images%20of%20random%20people%20for%20projects/seven_cmucen.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543811/sameer-renovation-website/team-members/sikandar_g2q3qp.webp',
+    mail: 'homemaintenance59@gmail.com',
+  },
+
+  {
+    id: 4,
+    name: 'Babu',
+    title: 'Painting head contractor Gurugram',
+    work: 'The Millenium International school gurugram, Emaar Greens, Nirvana Country',
+    avatar:
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628544124/sameer-renovation-website/team-members/babu1_peaf22.webp',
+    mail: 'shamsudin9811@gmail.com ',
+  },
+
+  {
+    id: 5,
+    name: 'Vishal',
+    title: 'Painting contractor Head of Gurugram and New Delhi',
+    work: 'Shree ram school, Essel Towers',
+    avatar:
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628544125/sameer-renovation-website/team-members/vishal_xd0xob.webp',
+    mail: 'vishalchokhrat@gmail.com',
+  },
+
+  {
+    id: 6,
+    name: 'Nancy',
+    title: 'Interior & Exterior Designer',
+    work: 'Concor Logistics, supertech sports village, supertech Livingston',
+    avatar:
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543811/sameer-renovation-website/team-members/nancy1_y7ibzv.webp',
+    mail: 'nancygiri95777@gmail.com',
+  },
+
+  {
+    id: 7,
+    name: 'Durgesh',
+    title: 'Website & Digital Creator',
+    work: 'Full Stack Developer | YouTuber',
+    avatar:
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543817/sameer-renovation-website/team-members/durgesh_ckipit.webp',
+    mail: '48durgesh.kumar@gmail.com',
   },
 ];
 

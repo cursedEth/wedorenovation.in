@@ -91,7 +91,7 @@ const Wrapper = styled.section`
     border: 2px solid var(--clr-primary);
 
     &:hover {
-      background: var(--clr-gradient);
+      background: var(--clr-primary);
     }
   }
 

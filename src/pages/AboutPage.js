@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PageTitle from './_PageTitle';
 import { Title } from '../components';
 import { teamMembers } from '../utils/data';
-import { FaComments, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 // *COMPONENTS
@@ -56,21 +56,22 @@ const AboutPage = () => {
   );
 };
 
-const SingleTeamMember = ({ avatar, name, title, mail, social }) => {
+const SingleTeamMember = ({ avatar, name, title, mail, work }) => {
   return (
     <article className="team-member">
       <div className="img-container">
         <img src={avatar} alt={name} loading="lazy" />
-      </div>
-      <h3>{name}</h3>
-      <h5>{title}</h5>
-      <div className="socials">
-        <a href={`mailto:${mail}`} title="Email">
+        <a href={`mailto:${mail}`} title={`${name}'s Email`} className="email">
           <FaEnvelope />
         </a>
-        <a href={social} title="Contact via Text">
-          <FaComments />
-        </a>
+      </div>
+
+      <div className="member-info">
+        <h4>{name}</h4>
+        <h5>{title}</h5>
+        <p>
+          <span>Works </span>- {work}
+        </p>
       </div>
     </article>
   );
@@ -102,50 +103,69 @@ const Wrapper = styled.main`
     .section-center {
       display: grid;
       gap: 4rem;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+
+  .team-member {
+    background: var(--white);
+    text-align: center;
+    border-radius: 0.25rem;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+
+    &:hover {
+      box-shadow: var(--shadow-3);
     }
 
-    .team-member {
-      background: var(--white);
-      text-align: center;
-      border-radius: 0.25rem;
-      box-shadow: var(--shadow-1);
-      transition: var(--transition);
-
-      &:hover {
-        box-shadow: var(--shadow-3);
-      }
-
-      h3 {
-        margin: 1rem 0;
-        font-weight: bold;
-      }
-
-      h5 {
-        text-transform: uppercase;
-        font-style: italic;
-        margin-bottom: 0;
-      }
-
-      .socials {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 1rem 0.5rem;
-
-        svg {
-          transition: var(--transition);
-          color: var(--black);
-          font-size: 2rem;
-          &:hover {
-            color: var(--clr-primary-light);
-          }
-        }
-      }
+    .img-container {
+      position: relative;
 
       img {
         border-top-left-radius: 0.25rem;
         border-top-right-radius: 0.25rem;
         aspect-ratio: 4/3;
+        object-fit: contain;
+      }
+
+      .email {
+        padding: 1rem;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        transition: var(--transition);
+        background: var(--clr-primary-light);
+        border: 4px solid var(--white);
+        border-radius: 50%;
+
+        &:hover {
+          background: var(--clr-primary);
+        }
+      }
+
+      svg {
+        color: var(--white);
+        font-size: 1.75rem;
+        vertical-align: bottom;
+      }
+    }
+
+    .member-info {
+      margin-top: 2rem;
+      padding: 0.5rem 0.5rem 1rem;
+
+      h5 {
+        text-transform: uppercase;
+        margin-bottom: 0.75rem;
+        letter-spacing: 0;
+      }
+
+      p {
+        span {
+          font-weight: bold;
+          text-decoration: underline;
+        }
       }
     }
   }
