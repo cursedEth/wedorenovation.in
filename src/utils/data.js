@@ -336,27 +336,32 @@ export const teamMembers = [
 export const questions = [
   {
     id: 1,
-    ques: 'Do I have to allow the use of cookies?',
-    ans: 'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+    ques: 'How do I get in touch with you?',
+    ans: 'You can either click the button at the top to give us a call or contact us through any of the contact  links mentioned at the end of the page.',
   },
   {
     id: 2,
-    ques: 'How do I change my My Page password?',
-    ans: 'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+    ques: 'What is your response time?',
+    ans: 'You can call us anytime, 24x7, and we will be there to help you as much as we can. Alternatively, if you drop us an email, we will get back to you within 24 hours.',
   },
   {
     id: 3,
-    ques: 'What is BankID?',
-    ans: 'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+    ques: 'Is there any consulting charges?',
+    ans: 'Absolutely not! You can call us anytime for a free no obligation quote.',
   },
   {
     id: 4,
-    ques: 'Whose birth number can I use?',
-    ans: 'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+    ques: 'Do you do waterproofing and heatproofing?',
+    ans: 'Yes. We have a very experienced staff for both water proofing anf heatproofing. Infact, it is one of our major speciality along with renovation works.',
   },
   {
     id: 5,
-    ques: 'When do I recieve a password ordered by letter?',
-    ans: 'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+    ques: 'Are there any sample of the work you have done?',
+    ans: 'Yes. You can checkout a few of our recent works on the main page of this website. Currently, we are also working on creating a facebook and instagram page for our comapany where you will be able to see most of our works.',
+  },
+  {
+    id: 6,
+    ques: 'Do you provide any kind of guarantee?',
+    ans: 'Yes. The actual gaurantee varies from service to service and depends on several other factors. Give us a call if you want to discuss this in detail.',
   },
 ];
