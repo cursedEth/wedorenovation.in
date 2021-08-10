@@ -56,7 +56,7 @@ const Wrapper = styled.section`
 
   .info-container {
     .logo {
-      transform: scale(1.5);
+      width: 15rem;
     }
     p {
       margin-top: 1rem;

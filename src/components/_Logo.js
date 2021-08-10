@@ -16,6 +16,7 @@ const Logo = () => {
 const LogoContainer = styled.div`
   .logo {
     width: 10rem;
+    height: 5rem;
   }
 `;
 

@@ -273,11 +273,11 @@ export const teamMembers = [
 
   {
     id: 2,
-    name: 'Abdul Khalid',
-    title: 'TBD',
-    work: 'TBD',
+    name: 'Khalid',
+    title: 'Construction, Renovation Head Delhi NCR',
+    work: 'Aptara , Radnik Exports Noida , Radnik Auto Exports NSEZ',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1615844912/images%20of%20random%20people%20for%20projects/two_jejwvt.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628572286/sameer-renovation-website/team-members/khalid_psaehx.webp',
     mail: 'sameerathomerenovation@gmail.com',
   },
 
