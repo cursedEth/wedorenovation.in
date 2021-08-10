@@ -278,7 +278,7 @@ export const teamMembers = [
     work: 'Aptara , Radnik Exports Noida , Radnik Auto Exports NSEZ',
     avatar:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628572286/sameer-renovation-website/team-members/khalid_psaehx.webp',
-    mail: 'sameerathomerenovation@gmail.com',
+    mail: 'ak418067@gmail.com',
   },
 
   {
@@ -319,16 +319,6 @@ export const teamMembers = [
     avatar:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543811/sameer-renovation-website/team-members/nancy1_y7ibzv.webp',
     mail: 'nancygiri95777@gmail.com',
-  },
-
-  {
-    id: 7,
-    name: 'Durgesh',
-    title: 'Website & Digital Creator',
-    work: 'Full Stack Developer | YouTuber',
-    avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543817/sameer-renovation-website/team-members/durgesh_ckipit.webp',
-    mail: '48durgesh.kumar@gmail.com',
   },
 ];
 
