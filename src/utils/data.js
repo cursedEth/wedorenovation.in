@@ -267,7 +267,7 @@ export const teamMembers = [
     title: 'CEO',
     work: 'H&M exports Noida, All Cargo Logistics park Pvt Ltd , Aptara',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628536391/sameer-renovation-website/team-members/sameer_wiob8s.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628568248/sameer-renovation-website/team-members/sameer_wblwiz.webp',
     mail: 'sameerathomerenovation@gmail.com',
   },
 
