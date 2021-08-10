@@ -267,7 +267,7 @@ export const teamMembers = [
     title: 'CEO',
     work: 'H&M exports Noida, All Cargo Logistics park Pvt Ltd , Aptara',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628568248/sameer-renovation-website/team-members/sameer_wblwiz.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1628568248/sameer-renovation-website/team-members/sameer_wblwiz.webp',
     mail: 'sameerathomerenovation@gmail.com',
   },
 
@@ -277,7 +277,7 @@ export const teamMembers = [
     title: 'Construction, Renovation Head Delhi NCR',
     work: 'Aptara , Radnik Exports Noida , Radnik Auto Exports NSEZ',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628572286/sameer-renovation-website/team-members/khalid_psaehx.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1628572286/sameer-renovation-website/team-members/khalid_psaehx.webp',
     mail: 'ak418067@gmail.com',
   },
 
@@ -287,7 +287,7 @@ export const teamMembers = [
     title: 'Gurugram Renovation head',
     work: 'Eldeco , Nirvana Country, South City - 1 Gurugram',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543811/sameer-renovation-website/team-members/sikandar_g2q3qp.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1628543811/sameer-renovation-website/team-members/sikandar_g2q3qp.webp',
     mail: 'homemaintenance59@gmail.com',
   },
 
@@ -297,7 +297,7 @@ export const teamMembers = [
     title: 'Painting head contractor Gurugram',
     work: 'The Millenium International school gurugram, Emaar Greens, Nirvana Country',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628544124/sameer-renovation-website/team-members/babu1_peaf22.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1628544124/sameer-renovation-website/team-members/babu1_peaf22.webp',
     mail: 'shamsudin9811@gmail.com ',
   },
 
@@ -307,7 +307,7 @@ export const teamMembers = [
     title: 'Painting contractor Head of Gurugram and New Delhi',
     work: 'Shree ram school, Essel Towers',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628544125/sameer-renovation-website/team-members/vishal_xd0xob.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1628544125/sameer-renovation-website/team-members/vishal_xd0xob.webp',
     mail: 'vishalchokhrat@gmail.com',
   },
 
@@ -317,7 +317,7 @@ export const teamMembers = [
     title: 'Interior & Exterior Designer',
     work: 'Concor Logistics, supertech sports village, supertech Livingston',
     avatar:
-      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_600/v1628543811/sameer-renovation-website/team-members/nancy1_y7ibzv.webp',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_400/v1628543811/sameer-renovation-website/team-members/nancy1_y7ibzv.webp',
     mail: 'nancygiri95777@gmail.com',
   },
 ];
@@ -329,26 +329,31 @@ export const questions = [
     ques: 'How do I get in touch with you?',
     ans: 'You can either click the button at the top to give us a call or contact us through any of the contact  links mentioned at the end of the page.',
   },
+
   {
     id: 2,
     ques: 'What is your response time?',
     ans: 'You can call us anytime, 24x7, and we will be there to help you as much as we can. Alternatively, if you drop us an email, we will get back to you within 24 hours.',
   },
+
   {
     id: 3,
     ques: 'Is there any consulting charges?',
     ans: 'Absolutely not! You can call us anytime for a free no obligation quote.',
   },
+
   {
     id: 4,
     ques: 'Do you do waterproofing and heatproofing?',
     ans: 'Yes. We have a very experienced staff for both water proofing anf heatproofing. Infact, it is one of our major speciality along with renovation works.',
   },
+
   {
     id: 5,
     ques: 'Are there any sample of the work you have done?',
     ans: 'Yes. You can checkout a few of our recent works on the main page of this website. Currently, we are also working on creating a facebook and instagram page for our comapany where you will be able to see most of our works.',
   },
+
   {
     id: 6,
     ques: 'Do you provide any kind of guarantee?',
