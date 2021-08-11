@@ -114,7 +114,7 @@ const Wrapper = styled.div`
     ul {
       cursor: pointer;
       position: absolute;
-      width: 300px;
+      width: 200px;
       background: transparent;
       padding-top: 0.5rem;
       text-align: center;

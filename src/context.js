@@ -18,12 +18,13 @@ export const AppProvider = ({ children }) => {
 
   // #DROPDOWN MENU
   const toggleAboutMenu = () =>
-    setMenu({ ...menu, aboutMenu: !menu.aboutMenu });
+    setMenu({ aboutMenu: !menu.aboutMenu, servicesMenu: false });
   const toggleServicesMenu = () =>
-    setMenu({ ...menu, servicesMenu: !menu.servicesMenu });
-  const openAboutMenu = () => setMenu({ ...menu, aboutMenu: true });
+    setMenu({ servicesMenu: !menu.servicesMenu, aboutMenu: false });
+  const openAboutMenu = () => setMenu({ aboutMenu: true, servicesMenu: false });
   const closeAboutMenu = () => setMenu({ ...menu, aboutMenu: false });
-  const openServicesMenu = () => setMenu({ ...menu, servicesMenu: true });
+  const openServicesMenu = () =>
+    setMenu({ aboutMenu: false, servicesMenu: true });
   const closeServicesMenu = () => setMenu({ ...menu, servicesMenu: false });
 
   // *RETURNS
