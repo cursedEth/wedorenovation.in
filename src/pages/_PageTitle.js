@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import heroImg from '../assets/hero-bcg.jpeg';
 
 const PageTitle = ({ title, subtitle }) => {
   return (
@@ -21,7 +20,8 @@ const PageTitle = ({ title, subtitle }) => {
 
 const TitleConatiner = styled.div`
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
-    url(${heroImg}) center/cover no-repeat;
+    url('https://res.cloudinary.com/dds18bzdy/image/upload/v1628681096/sameer-renovation-website/local-assests/hero-bcg_vnlbrr.webp')
+      center/cover no-repeat;
   color: var(--white);
 
   .section-center {

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Title from './_Title';
-import reviewsImg from '../assets/reviews-bcg.webp';
 import SingleReview from './_SingleReview';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { reviews } from '../utils/data';
@@ -81,7 +80,8 @@ const Reviews = () => {
 // * STYLES
 const Wrapper = styled.section`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
-    url(${reviewsImg}) center/cover no-repeat;
+    url('https://res.cloudinary.com/dds18bzdy/image/upload/v1628681095/sameer-renovation-website/local-assests/reviews-bcg_ytvutr.webp')
+      center/cover no-repeat;
   color: var(--white);
   text-align: center;
 
