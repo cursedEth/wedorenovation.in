@@ -19,7 +19,7 @@ export const aboutLinks = [
   {
     id: 2,
     url: 'https://www.google.com/search?hl=en-AU&gl=au&q=HOME+:+House+Painting,+Construction,+Renovation+and+Remodeling+Contractors+In+Noida,+C-82,Shop+-1,Vikrant+Chauhan+Market,+Sector+53,+Noida&ludocid=17530549404088406061&#lrd=0x390ce5779518134b:0xf34905cd5c20102d,1,,,&wptab=s:H4sIAAAAAAAAAONgVuLVT9c3NMxJrygrqSpIe8RowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18uxi4vfJT07MCcjPDEoty0wtL17E2sqYkZ-bqlCUmpdflliSmZ-nU5CYCTQhL10hMS9FITk_r7ikqDQZJKNQnFpUlpmcWmylAFajo1Cen5-io1CSmZNaDFGdWZaZAxQtygZpLClKTC7JL1LIzFPIy89MSdRJSc3JyFTISy7SUUgvLSpNL0rMBVoMdggAfNG14OcAAAA',
-    title: 'See reviews on Google Business',
+    title: 'Reviews on Google Business',
     text: 'reviews (google)',
   },
 ];
