@@ -1,4 +1,4 @@
 ## To Do's
 
 - Hosting
-- Merge on main branch
+- Merge to main branch
