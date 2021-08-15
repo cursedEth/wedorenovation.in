@@ -33,7 +33,7 @@ const AboutPage = () => {
           etc.
         </p>
         <br />
-        <p>
+        <p className="highlight">
           Book your free site visit now or get a free no obligation quote{' '}
           <Link to="/contact">here</Link>.
         </p>
@@ -88,6 +88,10 @@ const Wrapper = styled.main`
       font-weight: bold;
       text-decoration: underline;
     }
+  }
+
+  p.highlight {
+    font-size: 1.3rem;
   }
 
   .team {
