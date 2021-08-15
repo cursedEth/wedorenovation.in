@@ -163,7 +163,7 @@ export const reviews = [
     title: 'Architect',
     image:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/ravi-gumber_rhfjst.webp',
-    text: 'My partner reached out to, and contracted with, these guys for a kitchen improvement project at our apartment in Sector 18, Noida last year. As an architect with many years of personal experience in the construction industry, my partner is a tough customer to please!  Sammer was responsive to our needs, quoted and executed their Scope of Work to perfection, and followed up subsequently to ensure we were happy with the quality of their work. I would recommend them for great customer care and excellent work...',
+    text: 'My partner reached out to, and contracted with, these guys for a kitchen improvement project at our apartment in Sector 75, Noida last year. As an architect with many years of personal experience in the construction industry, my partner is a tough customer to please!  Sammer was responsive to our needs, quoted and executed their Scope of Work to perfection, and followed up subsequently to ensure we were happy with the quality of their work. I would recommend them for great customer care and excellent work...',
     stars: 5,
   },
   {
