@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { aboutLinks as links } from '../utils/constants';
+//--- import { aboutLinks as links } from '../utils/constants';
 
 const AboutLinks = () => {
   return (
@@ -19,8 +19,14 @@ const AboutLinks = () => {
         </Link>
       </li>
 
+      <li>
+        <Link to="/reviews" className="link" title="Reviews">
+          Reviews
+        </Link>
+      </li>
+
       {/* rest anchor links */}
-      {links.map(({ id, url, title, text }) => {
+      {/*--- {links.map(({ id, url, title, text }) => {
         return (
           <li key={id}>
             <a
@@ -34,7 +40,7 @@ const AboutLinks = () => {
             </a>
           </li>
         );
-      })}
+      })} */}
     </Wrapper>
   );
 };

@@ -7,7 +7,15 @@ import {
   FooterLinks,
   Footer,
 } from './components';
-import { Home, About, FAQs, SingleService, Contact, Error } from './pages';
+import {
+  Home,
+  About,
+  FAQs,
+  Reviews,
+  SingleService,
+  Contact,
+  Error,
+} from './pages';
 
 function App() {
   return (
@@ -26,6 +34,9 @@ function App() {
         </Route>
         <Route exact path="/faqs">
           <FAQs />
+        </Route>
+        <Route exact path="/reviews">
+          <Reviews />
         </Route>
         <Route exact path="/contact">
           <Contact />
