@@ -84,6 +84,7 @@ const Wrapper = styled.section`
     outline: 3px solid var(--clr-primary);
     outline-offset: 5px;
     background: var(--clr-primary);
+    animation: bounce 4s linear infinite;
 
     @media (max-width: 481px) {
       padding: 0.5rem 1rem;
@@ -96,6 +97,18 @@ const Wrapper = styled.section`
     &:hover {
       background: transparent;
       outline-color: var(--white);
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
     }
   }
 `;
