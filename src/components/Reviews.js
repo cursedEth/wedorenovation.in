@@ -105,7 +105,7 @@ const Wrapper = styled.section`
     display: grid;
     place-items: center;
     overflow: hidden;
-    height: 488px;
+    height: 788px;
   }
 
   .prev,
