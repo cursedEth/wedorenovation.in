@@ -159,38 +159,28 @@ export const services = [
 export const reviews = [
   {
     id: 1,
-    name: 'susan smith',
-    title: 'web developer',
+    name: 'Ravi Gumber',
+    title: 'Architect',
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-    text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
-    stars: 4.5,
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/ravi-gumber_rhfjst.webp',
+    text: 'My partner reached out to, and contracted with, these guys for a kitchen improvement project at our apartment in Sector 18, Noida last year. As an architect with many years of personal experience in the construction industry, my partner is a tough customer to please!  Sammer was responsive to our needs, quoted and executed their Scope of Work to perfection, and followed up subsequently to ensure we were happy with the quality of their work. I would recommend them for great customer care and excellent work...',
+    stars: 5,
   },
   {
     id: 2,
-    name: 'anna johnson',
-    title: 'web designer',
+    name: 'Kanan Madhav',
+    title: 'Essel Towers Gurugram',
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
-    text: 'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
+      'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/essel-towers_k9thx5.webp',
+    text: `Great job done by Home renovation team I'm really very happy every single person in their team knows their work, very polite and trustworthy people. Work was totally hassle free I didn't even needed to check once I left them working. They will give you the desired result till you are Happy with the results. will definitely recommend them, way to go Sameer`,
     stars: 5,
   },
   {
     id: 3,
-    name: 'peter jones',
-    title: 'intern',
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-    text: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
-    stars: 5,
-  },
-  {
-    id: 4,
-    name: 'bill anderson',
-    title: 'the boss',
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
-    text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+    name: 'Mongal Mukherjee',
+    title: 'Electronics Shop Owner',
+    image: `https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/mongol_j0ouxt.webp`,
+    text: `If you'd like to work with a painter who sets expectations up front, communicates very well, shows up on time then Sameer's Renovation company is the one. Friendly - definitely hire him if you want someone easy to work with, very pleased.`,
     stars: 5,
   },
 ];

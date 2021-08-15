@@ -89,9 +89,8 @@ const Wrapper = styled.article`
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 9rem;
     text-align: left;
-    padding-bottom: 8rem;
 
     @media (max-width: 792px) {
       flex-direction: column;
@@ -112,6 +111,7 @@ const Wrapper = styled.article`
     height: 8rem;
     border-radius: 50%;
     box-shadow: var(--shadow-3);
+    transform: translateY(-10%);
   }
 
   .name {
