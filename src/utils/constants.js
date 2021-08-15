@@ -39,10 +39,10 @@ export const servicesLinks = services.map((service) => {
 export const contactLinks = [
   {
     id: 1,
-    url: 'https://g.page/Wedohomepaintingandrenovation?share',
+    url: 'https://goo.gl/maps/GFUQ2qLoFstCjv849',
     title: 'Location',
     icon: <FaMapMarkerAlt />,
-    text: 'C-82, Shop -1, Vikrant Chauhan Market, Sector 53, Noida',
+    text: 'Q-95, KP 2 Jaypee Wish Town, Sector 131, Noida, UP',
   },
   {
     id: 2,
