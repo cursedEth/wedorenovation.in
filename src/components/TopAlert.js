@@ -30,8 +30,8 @@ const TopAlert = () => {
         <div>
           <p>
             Get a free estimate now. Call at&nbsp;
-            <a href="tel:8800805388" className="link" title="Call Us Now!">
-              8800805388
+            <a href="tel:8800454335" className="link" title="Call Us Now!">
+              8800454335
             </a>
           </p>
         </div>

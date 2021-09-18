@@ -46,10 +46,10 @@ export const contactLinks = [
   },
   {
     id: 2,
-    url: 'tel:8800805388',
+    url: 'tel:8800454335',
     title: 'Phone',
     icon: <FaPhoneAlt />,
-    text: '(+91) 8800805388',
+    text: '(+91) 8800454335',
   },
   {
     id: 3,
