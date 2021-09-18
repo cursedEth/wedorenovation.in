@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 const Logo = () => {
@@ -15,8 +15,9 @@ const Logo = () => {
 
 const LogoContainer = styled.div`
   .logo {
-    width: 10rem;
+    width: 7rem;
     height: 5rem;
+    padding-top: 0.5rem;
   }
 `;
 
