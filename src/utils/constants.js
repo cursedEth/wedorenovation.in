@@ -60,14 +60,14 @@ export const contactLinks = [
   },
   {
     id: 4,
-    url: 'mailto:wedohomerenovation@gmail.com',
+    url: 'mailto:wedohomerenovation@gmail.com?subject=An estimate required for the work&body=Hello Sameer! I wanted to discuss a few things about my renovation work. Please call us at the number <YOUR PHONE NUMBER>.',
     title: 'Office Email',
     icon: <FaEnvelope />,
     text: 'wedohomerenovation@gmail.com',
   },
   {
     id: 5,
-    url: 'mailto:sameerathomerenovation@gmail.com',
+    url: 'mailto:sameerathomerenovation@gmail.com?subject=An estimate required for the work&body=Hello Sameer! I wanted to discuss a few things about my renovation work. Please call us at the number <YOUR PHONE NUMBER>.',
     title: 'Personal Email',
     icon: <FaRegEnvelope />,
     text: 'sameerathomerenovation@gmail.com',
