@@ -8,10 +8,15 @@ import {
   Gallery,
   Contact,
 } from '../components';
+import Seo from './Seo';
 
 const HomePage = () => {
   return (
     <>
+      <Seo
+        title="We Do Renovation™ - Best Renovation, Construction & Painting Company since
+      1960s"
+      />
       <Hero />
       <Info />
       <Skills />

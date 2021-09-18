@@ -3,30 +3,35 @@ import styled from 'styled-components';
 import PageTitle from './_PageTitle';
 import { Title, ContactMap } from '../components';
 import { contactLinks as links } from '../utils/constants';
+import Seo from './Seo';
 
 //* COMPONENTS
 
 const ContactPage = () => {
   return (
-    <Wrapper className="page-100">
-      <PageTitle title="get in touch" subtitle="contact" />
+    <>
+      <Seo title="Contact Us | We Do Renovation™" />
 
-      <section className="section-center">
-        <div className="info">
-          <Title
-            title="contact us"
-            description="We are open 24x7. Get in touch with us anytime you want. Use the details below for the same."
-          />
+      <Wrapper className="page-100">
+        <PageTitle title="get in touch" subtitle="contact" />
 
-          {links.map((link) => (
-            <SingleInfoItem key={links.id} {...link} />
-          ))}
-        </div>
-      </section>
+        <section className="section-center">
+          <div className="info">
+            <Title
+              title="contact us"
+              description="We are open 24x7. Get in touch with us anytime you want. Use the details below for the same."
+            />
 
-      {/* map */}
-      <ContactMap />
-    </Wrapper>
+            {links.map((link) => (
+              <SingleInfoItem key={links.id} {...link} />
+            ))}
+          </div>
+        </section>
+
+        {/* map */}
+        <ContactMap />
+      </Wrapper>
+    </>
   );
 };
 

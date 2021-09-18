@@ -70,6 +70,8 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555452/sameer-renovation-website/services/renovation/reno-3-min_r3xdvu.webp',
     ],
     url: 'remodeling-and-renovation',
+    keywords: `Kitchen remodeling, bathroom remodeling, kitchen and bathroom remodeling, kitchen remodeler, bathroom remodelers, remodeler in Noida, bathroom remodelers, kitchen remodelers, kitchen remodel, bathroom remodel, kitchen remodeling in Delhi, bathroom remodeling in Delhi, bathroom remodelers in Delhi, kitchen remodeler in Delhi, kitchen remodeling in Gurgaon, kitchen remodeling in gurugram, bathroom remodeling in Gurgaon, bathroom remodeling in gurugram, remodelers in gurugram, remodelers in Gurgaon, remodeling work in Delhi NCR, remodelling work in Noida, remodeling work in Gurugram, remodeling work in Gurgaon, kitchen and bathroom remodeling work , kitchen remodeling near me, bathroom remodelers near me, kitchen remodeling near me, bathroom remodeling near me, remodelers near me, remodeling work near me, remodeling contractor near me, kitchen remodeling contractor, bathroom remodeling contractors
+    Modular kitchen makers, modular kitchen designer, modular kitchen appliers, modular kitchen designs, modular kitchen contractors, modular kitchen in Noida, modular kitchen makers near me, modular kitchen work near me, modular kitchen work in Noida, modular kitchen work in Delhi, modular kitchen work in gurugram, मॉडलर किचन बनाने वाले, नोएडा में मॉडलर किचन बनाने वाले , गुरुग्राम में मॉडलर किचन बनाने वाले , दिल्ली में मॉडलर किचन बनाने वाले`,
   },
 
   {
@@ -87,6 +89,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555477/sameer-renovation-website/services/construction/cons-3-min_sgmeuf.webp',
     ],
     url: 'construction',
+    keywords: `Construction company, construction company near me, construction in Noida, Noida construction, construction company  Delhi, construction work, construction contractors, construction contractor near me, building construction, building construction contractor, Noida construction contractor, best construction contractor, daily construction contractor, construction contractor in Delhi, construction contractor in Noida, construction contractor in gurugram, construction contractors near me, civil construction contractor, civil construction contractors, civil construction contractor near me, office construction contractors, house construction contractor, home construction contractor, boundary wall construction, contractor near me.`,
   },
 
   {
@@ -103,6 +106,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555576/sameer-renovation-website/services/painting/paint-3-min_ascsnh.webp',
     ],
     url: 'painting',
+    keywords: `Painter near me, Painters near me, painting contractor near me, painting contractors, painting contractor in Noida, painting contractor in Delhi, painting contractor in gurugram, painting contractor in NCR,  painting contractor Noida, painting contractor gurugram, painting contractor Delhi, daily painting contractor, Noida painting contractors, gurugram painting contractors, Delhi painting contractors, painting work near me, painting worker near me, painting contractor, best painting contractor, painting service provider near me, painting service provider, best painting service provider, House painting contractor, home painting contractor, flat painting contractor, office painting contractor, building painting contractor, painting professionals, painting professional near me, wall designer near me, wall design painting, design wall painter,`,
   },
 
   {
@@ -120,6 +124,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555598/sameer-renovation-website/services/proofing/proof-4-min_ialykq.webp',
     ],
     url: 'waterproofing-and-heatproofing',
+    keywords: `Waterproofing contractor, heat proofing contractor, waterproofing contractor near me, heat proofing contractor near me, ceiling waterproofing , ceiling heat proofing , roof waterproofing, roof heat proofing, waterproofing contractor near me, heat proofing contractor near me, building waterproofing, building heat proofing, waterproofing professionals, heat proofing professionals, proofing professionals, proofing professionals near me, best proofing professionals, best waterproofing contractors, home waterproofing professional, home waterproofing contractor, house waterproofing professional, house waterproofing contractor, home heat proofing contractors, house heat proofing contractor, waterproofing contractor in Noida, waterproofing contractor in gurugram, waterproofing contractor in Delhi, Noida waterproofing contractors, gurugram waterproofing contractors, Delhi waterproofing contractor, heat proofing contractor in Noida, heatproofing contractor in gurugram, heat proofing contractor in Delhi`,
   },
 
   {
@@ -136,6 +141,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555644/sameer-renovation-website/services/decoration/deco-3-min_batyt1.webp',
     ],
     url: 'interior-and-exterior-decoration',
+    keywords: `Renovation of house, renovation of building, renovation of school, renovation of college, renovation contractor, Renovation contractor in Noida, renovation contractors, renovation contractor in Delhi,  renovation contractor near me, renovation contractor in gurugram, renovation contractor in Delhi NCR, best renovation contractor near me, best renovation contractor in Noida, renovator in Noida, renovators in Gurgaon, Renovator in gurugram, renovator in Delhi renovator near me, home renovation contractor, home renovator, home renovation contractors, home renovation contractor in Noida, home renovation contractor in Delhi, home renovation contractor in Gurgaon, home renovation contractor in gurugram, renovators near me,  full house renovator in Noida coma full house renovator in Delhi, full house renovator in gurugram, full house renovation contractor in cyber city, professional building renovators, professional home renovators, professional house renovators, professional renovators, professional renovator near me`,
   },
 
   {
@@ -152,6 +158,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555670/sameer-renovation-website/services/other-works/other-3-min_un2rk9.webp',
     ],
     url: 'aluminium-upvc-glass-works',
+    keywords: `Renovation of house, renovation of building, renovation of school, renovation of college, renovation contractor, Renovation contractor in Noida, renovation contractors, renovation contractor in Delhi,  renovation contractor near me, renovation contractor in gurugram, renovation contractor in Delhi NCR, best renovation contractor near me, best renovation contractor in Noida, renovator in Noida, renovators in Gurgaon, Renovator in gurugram, renovator in Delhi renovator near me, home renovation contractor, home renovator, home renovation contractors, home renovation contractor in Noida, home renovation contractor in Delhi, home renovation contractor in Gurgaon, home renovation contractor in gurugram, renovators near me,  full house renovator in Noida coma full house renovator in Delhi, full house renovator in gurugram, full house renovation contractor in cyber city, professional building renovators, professional home renovators, professional house renovators, professional renovators, professional renovator near me`,
   },
 ];
 

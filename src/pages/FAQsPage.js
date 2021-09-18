@@ -4,25 +4,30 @@ import PageTitle from './_PageTitle';
 import { Title } from '../components';
 import { questions } from '../utils/data';
 import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
+import Seo from './Seo';
 
 //* COMPONENTS
 
 const FAQsPage = () => {
   return (
-    <Wrapper className="page-100">
-      <PageTitle title="Frequently Asked Questions" subtitle="FAQs" />
+    <>
+      <Seo title="Frequently Asked Questions | We Do Renovation™" />
 
-      <div className="section section-center">
-        <Title
-          title="FAQs"
-          description="Here are a few of the common questions we get asked everyday."
-        />
+      <Wrapper className="page-100">
+        <PageTitle title="Frequently Asked Questions" subtitle="FAQs" />
 
-        {questions.map((question) => (
-          <SingleQuestion key={question.id} {...question} />
-        ))}
-      </div>
-    </Wrapper>
+        <div className="section section-center">
+          <Title
+            title="FAQs"
+            description="Here are a few of the common questions we get asked everyday."
+          />
+
+          {questions.map((question) => (
+            <SingleQuestion key={question.id} {...question} />
+          ))}
+        </div>
+      </Wrapper>
+    </>
   );
 };
 
