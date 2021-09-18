@@ -16,7 +16,7 @@ const AboutPage = () => {
       {/* WHO WE ARE */}
       <section className="section section-center">
         <p>
-          Greetings from Home™ Renovation. We are the best Painting, Renovation
+          Greetings from We Do Renovation™. We are the best Painting, Renovation
           and Construction service providers for more than 61 years as this
           being our family business since 1960. We are a group of contractors
           providing you the best quality of work with no compromises.

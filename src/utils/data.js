@@ -77,7 +77,7 @@ export const services = [
     icon: <GiBrickWall />,
     name: 'construction',
     title: 'Construction Services',
-    desc: `With Home™ Renovation, you're not just building a house, you're making dreams happen!
+    desc: `With We Do Renovation™, you're not just building a house, you're making dreams happen!
     A home is the biggest investment most people will ever make and we make sure that your perfect home dream comes true. Aside from building homes, we build all kinds of offices, apartments, schools, colleges, factories, shops, showrooms, buildings, etc. We offer our clients direct access to a team of highly qualified and experienced specialists offering consultancy services in preliminary work, building design, construction management as well as construction supervision and maintenance work.`,
     quote: `Extraordinary service for extraordinary customers.`,
     image: [
@@ -94,7 +94,7 @@ export const services = [
     icon: <GiPaintRoller />,
     name: 'painting',
     title: 'Painting Services',
-    desc: `Give new looks to your walls and ceilings by our experience eye for design. We do all kinds of latest trendy designs, textures, patterns, and paints. Home™ Renovation guarantees you to present with the best of its confirmed experts. We interface you with very much prepared painters who will investigate every possibility while painting your home, office or business space. Home™ Renovation gives a scope of custom best painting services , taking into account a smooth, consistent experience and uncommon outcome in every place.`,
+    desc: `Give new looks to your walls and ceilings by our experience eye for design. We do all kinds of latest trendy designs, textures, patterns, and paints. We Do Renovation™ guarantees you to present with the best of its confirmed experts. We interface you with very much prepared painters who will investigate every possibility while painting your home, office or business space. We Do Renovation™ gives a scope of custom best painting services , taking into account a smooth, consistent experience and uncommon outcome in every place.`,
     quote: `Exceeding expectations is our motto.`,
     image: [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627556339/sameer-renovation-website/services/painting/painting_u18kkh-min_lrg4zz.webp',
@@ -172,7 +172,7 @@ export const reviews = [
     title: 'Essel Towers Gurugram',
     image:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/essel-towers_k9thx5.webp',
-    text: `Great job done by Home renovation team I'm really very happy every single person in their team knows their work, very polite and trustworthy people. Work was totally hassle free I didn't even needed to check once I left them working. They will give you the desired result till you are Happy with the results. will definitely recommend them, way to go Sameer`,
+    text: `Great job done by We Do  renovation team I'm really very happy every single person in their team knows their work, very polite and trustworthy people. Work was totally hassle free I didn't even needed to check once I left them working. They will give you the desired result till you are Happy with the results. will definitely recommend them, way to go Sameer`,
     stars: 5,
   },
   {

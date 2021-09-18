@@ -7,7 +7,7 @@ const Logo = () => {
   return (
     <LogoContainer>
       <Link to="/">
-        <img src={logo} alt="Home™ Renovation" className="logo" />
+        <img src={logo} alt="We Do Renovation™" className="logo" />
       </Link>
     </LogoContainer>
   );

@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
           <h4>A group of contractors running a family business since 1960</h4>
           <a
-            href="tel:8800805388"
+            href="tel:8800454335"
             className="btn"
             title="Get an estimate and site visit for free!"
           >

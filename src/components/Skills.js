@@ -10,7 +10,7 @@ const Skills = () => {
         {/* info */}
         <article className="info-container">
           <h2>
-            why choose <strong>Home™ Renovation</strong>?
+            why choose <strong>We Do Renovation™</strong>?
           </h2>
           <p>No Compromise Best Quality works since 1960</p>
         </article>
