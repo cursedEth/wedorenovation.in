@@ -15,9 +15,10 @@ const Logo = () => {
 
 const LogoContainer = styled.div`
   .logo {
-    width: 7rem;
-    height: 5rem;
-    padding-top: 0.5rem;
+    width: 9rem;
+    height: 7rem;
+    padding: 1rem 0 0.5rem;
+    object-fit: contain;
   }
 `;
 

@@ -73,7 +73,7 @@ const Wrapper = styled.section`
 
   .info-container {
     .logo {
-      width: 15rem;
+      width: 8rem;
       height: 7.5rem;
     }
     p {
