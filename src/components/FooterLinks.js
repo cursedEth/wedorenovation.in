@@ -18,13 +18,17 @@ const FooterLinks = () => {
               href="https://www.facebook.com/We-Do-Renovation-108188068265014/"
               title="Facebook Page"
               className="footer-social-icon"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaFacebook />
             </a>
             <a
-              href="https://instagram.com/we_do_renovation?utm_medium=copy_link"
+              href="https://instagram.com/wedorenovationindia?utm_medium=copy_link"
               title="Instagram Page"
               className="footer-social-icon"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaInstagram />
             </a>
