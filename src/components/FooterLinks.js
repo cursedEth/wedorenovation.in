@@ -4,6 +4,7 @@ import AboutLinks from './_AboutLinks';
 import ServicesLinks from './_ServicesLinks';
 import ContactLinks from './_ContactLinks';
 import Logo from './_Logo';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const FooterLinks = () => {
   return (
@@ -12,6 +13,26 @@ const FooterLinks = () => {
         <article className="info-container">
           <Logo />
           <p>No Compromise Best Quality works since 1960</p>
+          <div>
+            <a
+              href="https://www.facebook.com/We-Do-Renovation-108188068265014/"
+              title="Facebook Page"
+              className="footer-social-icon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://instagram.com/wedorenovationindia?utm_medium=copy_link"
+              title="Instagram Page"
+              className="footer-social-icon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </article>
 
         <article className="links-container">
@@ -56,13 +77,23 @@ const Wrapper = styled.section`
 
   .info-container {
     .logo {
-      width: 15rem;
+      width: 8rem;
       height: 7.5rem;
     }
     p {
       margin-top: 1rem;
       max-width: 18rem;
       color: var(--grey-4);
+    }
+
+    .footer-social-icon {
+      color: var(--grey-4);
+      font-size: 1.5rem;
+      margin: 0 0.5rem;
+      transition: var(--transition);
+      &:hover {
+        color: var(--white);
+      }
     }
   }
 

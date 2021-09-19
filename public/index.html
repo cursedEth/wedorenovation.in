@@ -4,20 +4,49 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#181d31" />
-    <meta
-      name="description"
-      content="We are the best Painting, Renovation and Construction service providers for more than 61 years as this being our family business since 1960. We are a group of contractors providing you the best quality of work with no compromises.
-      We providing services like : Whitewash and Wall Painting/designs, P.O.P work, Mason & civil work water and heat proofing, Glass and Aluminium work, Wood Work & polishing, Metal Fabrication and welding work, Tiles & marble Flooring and polishing, Bathroom & kitchen Remodeling Interior decoration & Renovation, Fibre sheet and sunshed work, Plumbing, Electrical wiring etc To all Houses, Offices, Apartments, schools, colleges, factories, shops, showroom & Buildings etc.
-      "
-    />
-    <link rel="icon" href="favicon.svg" />
-    <title
-      >Home™ Renovation - Best Renovation, Construction & Painting Company since
-      1960s</title
-    >
+    <link rel="icon" href="favicon.png" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- whatsapp -->
+    <script>
+      var url =
+        'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?14779';
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: '#4dc247',
+          ctaText: '',
+          borderRadius: '25',
+          marginLeft: '0',
+          marginBottom: '25',
+          marginRight: '25',
+          position: 'right',
+        },
+        brandSetting: {
+          brandName: 'We Do Renovation™',
+          brandSubTitle: 'Best Renovation Services since 1960s',
+          brandImg: './logo.png',
+          welcomeText: 'Hi there!👋\nHow may we help you?',
+          messageText: 'Hello, I have a question about your services...',
+          backgroundColor: '#0a5f54',
+          ctaText: 'Start Chat',
+          borderRadius: '25',
+          autoShow: false,
+          phoneNumber: '+918800454335',
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
   </body>
 </html>

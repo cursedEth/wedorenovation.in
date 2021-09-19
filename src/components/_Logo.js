@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 const Logo = () => {
   return (
     <LogoContainer>
       <Link to="/">
-        <img src={logo} alt="Home™ Renovation" className="logo" />
+        <img src={logo} alt="We Do Renovation™" className="logo" />
       </Link>
     </LogoContainer>
   );
@@ -15,8 +15,10 @@ const Logo = () => {
 
 const LogoContainer = styled.div`
   .logo {
-    width: 10rem;
-    height: 5rem;
+    width: 9rem;
+    height: 7rem;
+    padding: 1rem 0 0.5rem;
+    object-fit: contain;
   }
 `;
 

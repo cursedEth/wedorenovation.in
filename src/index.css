@@ -283,3 +283,8 @@ blockquote {
   font-size: 1.25rem;
   font-style: oblique;
 }
+
+.wa-chat-box-brand {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}

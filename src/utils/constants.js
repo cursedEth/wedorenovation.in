@@ -46,10 +46,10 @@ export const contactLinks = [
   },
   {
     id: 2,
-    url: 'tel:8800805388',
+    url: 'tel:8800454335',
     title: 'Phone',
     icon: <FaPhoneAlt />,
-    text: '(+91) 8800805388',
+    text: '(+91) 8800454335',
   },
   {
     id: 3,
@@ -60,14 +60,14 @@ export const contactLinks = [
   },
   {
     id: 4,
-    url: 'mailto:wedohomerenovation@gmail.com',
+    url: 'mailto:wedohomerenovation@gmail.com?subject=An estimate required for the work&body=Hello Sameer! I wanted to discuss a few things about my renovation work. Please call us at the number <YOUR PHONE NUMBER>.',
     title: 'Office Email',
     icon: <FaEnvelope />,
     text: 'wedohomerenovation@gmail.com',
   },
   {
     id: 5,
-    url: 'mailto:sameerathomerenovation@gmail.com',
+    url: 'mailto:sameerathomerenovation@gmail.com?subject=An estimate required for the work&body=Hello Sameer! I wanted to discuss a few things about my renovation work. Please call us at the number <YOUR PHONE NUMBER>.',
     title: 'Personal Email',
     icon: <FaRegEnvelope />,
     text: 'sameerathomerenovation@gmail.com',

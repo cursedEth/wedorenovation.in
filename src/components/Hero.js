@@ -23,9 +23,16 @@ const Hero = () => {
           </h1>
           <h4>A group of contractors running a family business since 1960</h4>
           <a
-            href="tel:8800805388"
-            className="btn"
+            href="tel:8800454335"
+            className="btn call-btn"
             title="Get an estimate and site visit for free!"
+          >
+            get a quote! <FaPhoneAlt />
+          </a>
+          <a
+            href="mailto:wedohomerenovation@gmail.com?subject=An estimate required for the work&body=Hello Sameer! I wanted to discuss a few things about my renovation work. Please call us at the number <YOUR PHONE NUMBER>."
+            className="btn mail-btn"
+            title="Leave us your number & we'll get back to you within 24 hours."
           >
             get a quote! <FaPhoneAlt />
           </a>
@@ -109,6 +116,19 @@ const Wrapper = styled.section`
     }
     100% {
       transform: scale(1);
+    }
+  }
+
+  /* changing btns for screen  */
+  .mail-btn {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    .mail-btn {
+      display: inline-block;
+    }
+    .call-btn {
+      display: none;
     }
   }
 `;

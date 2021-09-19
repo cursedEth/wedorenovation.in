@@ -70,6 +70,8 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555452/sameer-renovation-website/services/renovation/reno-3-min_r3xdvu.webp',
     ],
     url: 'remodeling-and-renovation',
+    keywords: `Kitchen remodeling, bathroom remodeling, kitchen and bathroom remodeling, kitchen remodeler, bathroom remodelers, remodeler in Noida, bathroom remodelers, kitchen remodelers, kitchen remodel, bathroom remodel, kitchen remodeling in Delhi, bathroom remodeling in Delhi, bathroom remodelers in Delhi, kitchen remodeler in Delhi, kitchen remodeling in Gurgaon, kitchen remodeling in gurugram, bathroom remodeling in Gurgaon, bathroom remodeling in gurugram, remodelers in gurugram, remodelers in Gurgaon, remodeling work in Delhi NCR, remodelling work in Noida, remodeling work in Gurugram, remodeling work in Gurgaon, kitchen and bathroom remodeling work , kitchen remodeling near me, bathroom remodelers near me, kitchen remodeling near me, bathroom remodeling near me, remodelers near me, remodeling work near me, remodeling contractor near me, kitchen remodeling contractor, bathroom remodeling contractors
+    Modular kitchen makers, modular kitchen designer, modular kitchen appliers, modular kitchen designs, modular kitchen contractors, modular kitchen in Noida, modular kitchen makers near me, modular kitchen work near me, modular kitchen work in Noida, modular kitchen work in Delhi, modular kitchen work in gurugram, मॉडलर किचन बनाने वाले, नोएडा में मॉडलर किचन बनाने वाले , गुरुग्राम में मॉडलर किचन बनाने वाले , दिल्ली में मॉडलर किचन बनाने वाले`,
   },
 
   {
@@ -77,7 +79,7 @@ export const services = [
     icon: <GiBrickWall />,
     name: 'construction',
     title: 'Construction Services',
-    desc: `With Home™ Renovation, you're not just building a house, you're making dreams happen!
+    desc: `With We Do Renovation™, you're not just building a house, you're making dreams happen!
     A home is the biggest investment most people will ever make and we make sure that your perfect home dream comes true. Aside from building homes, we build all kinds of offices, apartments, schools, colleges, factories, shops, showrooms, buildings, etc. We offer our clients direct access to a team of highly qualified and experienced specialists offering consultancy services in preliminary work, building design, construction management as well as construction supervision and maintenance work.`,
     quote: `Extraordinary service for extraordinary customers.`,
     image: [
@@ -87,6 +89,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555477/sameer-renovation-website/services/construction/cons-3-min_sgmeuf.webp',
     ],
     url: 'construction',
+    keywords: `Construction company, construction company near me, construction in Noida, Noida construction, construction company  Delhi, construction work, construction contractors, construction contractor near me, building construction, building construction contractor, Noida construction contractor, best construction contractor, daily construction contractor, construction contractor in Delhi, construction contractor in Noida, construction contractor in gurugram, construction contractors near me, civil construction contractor, civil construction contractors, civil construction contractor near me, office construction contractors, house construction contractor, home construction contractor, boundary wall construction, contractor near me.`,
   },
 
   {
@@ -94,7 +97,7 @@ export const services = [
     icon: <GiPaintRoller />,
     name: 'painting',
     title: 'Painting Services',
-    desc: `Give new looks to your walls and ceilings by our experience eye for design. We do all kinds of latest trendy designs, textures, patterns, and paints. Home™ Renovation guarantees you to present with the best of its confirmed experts. We interface you with very much prepared painters who will investigate every possibility while painting your home, office or business space. Home™ Renovation gives a scope of custom best painting services , taking into account a smooth, consistent experience and uncommon outcome in every place.`,
+    desc: `Give new looks to your walls and ceilings by our experience eye for design. We do all kinds of latest trendy designs, textures, patterns, and paints. We Do Renovation™ guarantees you to present with the best of its confirmed experts. We interface you with very much prepared painters who will investigate every possibility while painting your home, office or business space. We Do Renovation™ gives a scope of custom best painting services , taking into account a smooth, consistent experience and uncommon outcome in every place.`,
     quote: `Exceeding expectations is our motto.`,
     image: [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627556339/sameer-renovation-website/services/painting/painting_u18kkh-min_lrg4zz.webp',
@@ -103,6 +106,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555576/sameer-renovation-website/services/painting/paint-3-min_ascsnh.webp',
     ],
     url: 'painting',
+    keywords: `Painter near me, Painters near me, painting contractor near me, painting contractors, painting contractor in Noida, painting contractor in Delhi, painting contractor in gurugram, painting contractor in NCR,  painting contractor Noida, painting contractor gurugram, painting contractor Delhi, daily painting contractor, Noida painting contractors, gurugram painting contractors, Delhi painting contractors, painting work near me, painting worker near me, painting contractor, best painting contractor, painting service provider near me, painting service provider, best painting service provider, House painting contractor, home painting contractor, flat painting contractor, office painting contractor, building painting contractor, painting professionals, painting professional near me, wall designer near me, wall design painting, design wall painter,`,
   },
 
   {
@@ -120,6 +124,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555598/sameer-renovation-website/services/proofing/proof-4-min_ialykq.webp',
     ],
     url: 'waterproofing-and-heatproofing',
+    keywords: `Waterproofing contractor, heat proofing contractor, waterproofing contractor near me, heat proofing contractor near me, ceiling waterproofing , ceiling heat proofing , roof waterproofing, roof heat proofing, waterproofing contractor near me, heat proofing contractor near me, building waterproofing, building heat proofing, waterproofing professionals, heat proofing professionals, proofing professionals, proofing professionals near me, best proofing professionals, best waterproofing contractors, home waterproofing professional, home waterproofing contractor, house waterproofing professional, house waterproofing contractor, home heat proofing contractors, house heat proofing contractor, waterproofing contractor in Noida, waterproofing contractor in gurugram, waterproofing contractor in Delhi, Noida waterproofing contractors, gurugram waterproofing contractors, Delhi waterproofing contractor, heat proofing contractor in Noida, heatproofing contractor in gurugram, heat proofing contractor in Delhi`,
   },
 
   {
@@ -136,6 +141,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555644/sameer-renovation-website/services/decoration/deco-3-min_batyt1.webp',
     ],
     url: 'interior-and-exterior-decoration',
+    keywords: `Renovation of house, renovation of building, renovation of school, renovation of college, renovation contractor, Renovation contractor in Noida, renovation contractors, renovation contractor in Delhi,  renovation contractor near me, renovation contractor in gurugram, renovation contractor in Delhi NCR, best renovation contractor near me, best renovation contractor in Noida, renovator in Noida, renovators in Gurgaon, Renovator in gurugram, renovator in Delhi renovator near me, home renovation contractor, home renovator, home renovation contractors, home renovation contractor in Noida, home renovation contractor in Delhi, home renovation contractor in Gurgaon, home renovation contractor in gurugram, renovators near me,  full house renovator in Noida coma full house renovator in Delhi, full house renovator in gurugram, full house renovation contractor in cyber city, professional building renovators, professional home renovators, professional house renovators, professional renovators, professional renovator near me`,
   },
 
   {
@@ -152,6 +158,7 @@ export const services = [
       'https://res.cloudinary.com/dds18bzdy/image/upload/v1627555670/sameer-renovation-website/services/other-works/other-3-min_un2rk9.webp',
     ],
     url: 'aluminium-upvc-glass-works',
+    keywords: `Renovation of house, renovation of building, renovation of school, renovation of college, renovation contractor, Renovation contractor in Noida, renovation contractors, renovation contractor in Delhi,  renovation contractor near me, renovation contractor in gurugram, renovation contractor in Delhi NCR, best renovation contractor near me, best renovation contractor in Noida, renovator in Noida, renovators in Gurgaon, Renovator in gurugram, renovator in Delhi renovator near me, home renovation contractor, home renovator, home renovation contractors, home renovation contractor in Noida, home renovation contractor in Delhi, home renovation contractor in Gurgaon, home renovation contractor in gurugram, renovators near me,  full house renovator in Noida coma full house renovator in Delhi, full house renovator in gurugram, full house renovation contractor in cyber city, professional building renovators, professional home renovators, professional house renovators, professional renovators, professional renovator near me`,
   },
 ];
 
@@ -172,7 +179,7 @@ export const reviews = [
     title: 'Essel Towers Gurugram',
     image:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/essel-towers_k9thx5.webp',
-    text: `Great job done by Home renovation team I'm really very happy every single person in their team knows their work, very polite and trustworthy people. Work was totally hassle free I didn't even needed to check once I left them working. They will give you the desired result till you are Happy with the results. will definitely recommend them, way to go Sameer`,
+    text: `Great job done by We Do  renovation team I'm really very happy every single person in their team knows their work, very polite and trustworthy people. Work was totally hassle free I didn't even needed to check once I left them working. They will give you the desired result till you are Happy with the results. will definitely recommend them, way to go Sameer`,
     stars: 5,
   },
   {

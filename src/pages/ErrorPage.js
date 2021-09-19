@@ -1,18 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Seo from './Seo';
 
 const ErrorPage = () => {
   return (
-    <Wrapper className="page-100">
-      <section className="section section-center">
-        <h1>404</h1>
-        <h5>OOPS! The page you are looking for does not exist!</h5>
-        <Link to="/" className="btn">
-          Back Home
-        </Link>
-      </section>
-    </Wrapper>
+    <>
+      <Seo title="404 | Page Not Found:/" />
+      <Wrapper className="page-100">
+        <section className="section section-center">
+          <h1>404</h1>
+          <h5>OOPS! The page you are looking for does not exist!</h5>
+          <Link to="/" className="btn">
+            Back Home
+          </Link>
+        </section>
+      </Wrapper>
+    </>
   );
 };
 

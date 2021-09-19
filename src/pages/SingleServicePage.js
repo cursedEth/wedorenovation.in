@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import PageTitle from './_PageTitle';
 import ServiceGallery from './_ServiceGallery';
 import ErrorPage from './ErrorPage';
+import Seo from './Seo';
 
 //* COMPONENTS
 const SingleServicePage = () => {
@@ -49,20 +50,23 @@ const SingleServicePage = () => {
   const { title, desc, image, quote } = service;
 
   return (
-    <Wrapper>
-      <PageTitle title={title} subtitle="services" />
+    <>
+      <Seo title={`${title} | We Do Renovation™`} description={desc} />
+      <Wrapper>
+        <PageTitle title={title} subtitle="services" />
 
-      <div className="section section-center">
-        <div className="service-center">
-          <ServiceGallery images={image} title={title} />
-          <div className="info">
-            <h2>{title}</h2>
-            <p>{desc}</p>
-            <blockquote>{quote}</blockquote>
+        <div className="section section-center">
+          <div className="service-center">
+            <ServiceGallery images={image} title={title} />
+            <div className="info">
+              <h2>{title}</h2>
+              <p>{desc}</p>
+              <blockquote>{quote}</blockquote>
+            </div>
           </div>
         </div>
-      </div>
-    </Wrapper>
+      </Wrapper>
+    </>
   );
 };
 
