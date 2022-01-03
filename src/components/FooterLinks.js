@@ -4,7 +4,7 @@ import AboutLinks from './_AboutLinks';
 import ServicesLinks from './_ServicesLinks';
 import ContactLinks from './_ContactLinks';
 import Logo from './_Logo';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const FooterLinks = () => {
   return (
@@ -24,13 +24,22 @@ const FooterLinks = () => {
               <FaFacebook />
             </a>
             <a
-              href="https://instagram.com/wedorenovationindia?utm_medium=copy_link"
+              href="https://www.instagram.com/wedorenovationindia/"
               title="Instagram Page"
               className="footer-social-icon"
               target="_blank"
               rel="noreferrer"
             >
               <FaInstagram />
+            </a>
+            <a
+              href="https://twitter.com/Sameerchaukhrat"
+              title="Twitter Page"
+              className="footer-social-icon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter />
             </a>
           </div>
         </article>

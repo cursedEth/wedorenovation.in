@@ -9,9 +9,9 @@ html {
 
 :root {
   /*- primary colors */
-  --clr-primary: #146ce7;
+  /* --clr-primary: #146ce7;
   --clr-primary-light: #3f88ee;
-  --clr-secondary: #181d31;
+  --clr-secondary: #181d31; */
   --clr-gradient: linear-gradient(
     to bottom right,
     var(--clr-primary),
@@ -19,9 +19,9 @@ html {
   );
 
   /* testing colors */
-  /* --clr-primary: #2cb67d;
+  --clr-primary: #2cb67d;
   --clr-primary-light: #078080;
-  --clr-secondary: #001e1d; */
+  --clr-secondary: #001e1d;
 
   /*- grey colors */
   --grey-1: #f9fafb;
