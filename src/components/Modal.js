@@ -15,8 +15,14 @@ const Modal = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsModalOpen(true);
-    }, 1000);
+    }, 2000);
   }, []);
+
+  if (isModalOpen === true) {
+    setTimeout(() => {
+      setIsModalOpen(false);
+    }, 6000);
+  }
 
   // jsx
   return (
