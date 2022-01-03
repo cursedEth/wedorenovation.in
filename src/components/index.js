@@ -1,3 +1,4 @@
+import Modal from './Modal';
 import TopAlert from './TopAlert';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
@@ -15,6 +16,7 @@ import ContactMap from './_ContactMap';
 import ScrollToTop from './_ScrollToTop';
 
 export {
+  Modal,
   TopAlert,
   Navbar,
   Sidebar,
