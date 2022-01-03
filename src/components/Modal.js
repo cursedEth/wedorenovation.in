@@ -69,8 +69,9 @@ const Wrapper = styled.section`
   .modal-container {
     transform: scale(0);
     transition: var(--transition);
-    background: var(--grey-4);
+    background: var(--clr-gradient);
     border-radius: var(--borderRadius);
+    color: var(--white);
     width: 90vw;
     /* height: 30vh; */
     max-width: 768px;
@@ -91,8 +92,8 @@ const Wrapper = styled.section`
     }
 
     a {
-      color: var(--black);
       text-decoration: underline;
+      color: var(--white);
     }
   }
   .show-modal .modal-container {

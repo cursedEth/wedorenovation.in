@@ -10,6 +10,10 @@ A website built with reactjs for a client who runs a local home renovation compa
 
 ## Stack
 
+- Reactjs
+- styled-components
+- Context API
+
 #### Resources
 
 - [Figma - Website Design](https://www.figma.com/)
