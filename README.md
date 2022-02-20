@@ -39,3 +39,16 @@ To run this project locally, run
 ```bash
   npm install && npm start
 ```
+
+## TO DO's
+
+- [x] Update Jio number
+- [x] Update location of office
+- [x] Update map location
+- [x] Update info section's para 2
+- [x] Replace 2 skills from the skills section
+- [] Replace reviews with google reviews
+- [] Add a all reviews btn
+- [] Change reviews to customer testimonials
+- [] Update gallery images
+- [] Referral and T&C section like home lane's

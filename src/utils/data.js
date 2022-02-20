@@ -5,9 +5,9 @@ import {
   FaRegClock,
   FaRegThumbsUp,
   FaUsers,
-  FaMapMarkerAlt,
-  FaRegChartBar,
-  FaFlagCheckered,
+  FaShieldAlt,
+  FaAward,
+  FaHandsHelping,
 } from 'react-icons/fa';
 
 // icons for services
@@ -25,27 +25,27 @@ export const skills = [
   {
     id: 1,
     icon: <FaRegClock />,
-    text: 'timely work',
+    text: 'timely delivered work',
   },
   {
     id: 2,
-    icon: <FaMapMarkerAlt />,
-    text: 'locally owned',
+    icon: <FaShieldAlt />,
+    text: 'Upto 10 years material warranty',
   },
   {
     id: 3,
-    icon: <FaFlagCheckered />,
-    text: 'certified',
+    icon: <FaHandsHelping />,
+    text: '8000+ happy customers',
   },
   {
     id: 4,
     icon: <FaUsers />,
-    text: 'experienced',
+    text: 'skilled team members',
   },
   {
     id: 5,
-    icon: <FaRegChartBar />,
-    text: 'top quality',
+    icon: <FaAward />,
+    text: 'high quality work',
   },
   {
     id: 6,

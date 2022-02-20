@@ -18,7 +18,7 @@ export const aboutLinks = [
   },
   {
     id: 2,
-    url: 'https://www.google.com/search?hl=en-AU&gl=au&q=HOME+:+House+Painting,+Construction,+Renovation+and+Remodeling+Contractors+In+Noida,+C-82,Shop+-1,Vikrant+Chauhan+Market,+Sector+53,+Noida&ludocid=17530549404088406061&#lrd=0x390ce5779518134b:0xf34905cd5c20102d,1,,,&wptab=s:H4sIAAAAAAAAAONgVuLVT9c3NMxJrygrqSpIe8RowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18uxi4vfJT07MCcjPDEoty0wtL17E2sqYkZ-bqlCUmpdflliSmZ-nU5CYCTQhL10hMS9FITk_r7ikqDQZJKNQnFpUlpmcWmylAFajo1Cen5-io1CSmZNaDFGdWZaZAxQtygZpLClKTC7JL1LIzFPIy89MSdRJSc3JyFTISy7SUUgvLSpNL0rMBVoMdggAfNG14OcAAAA',
+    url: 'https://www.google.com/search?q=wedorenovation&rlz=1C1ONGR_enIN993IN993&oq=wedorenovation&aqs=chrome.0.69i59j35i39j69i60l4.2781j0j7&sourceid=chrome&ie=UTF-8#lrd=0x390ce5df460ceac9:0x2614a07af046a060,1,,,',
     title: 'Reviews on Google Business',
     text: 'reviews (google)',
   },
@@ -39,10 +39,10 @@ export const servicesLinks = services.map((service) => {
 export const contactLinks = [
   {
     id: 1,
-    url: 'https://goo.gl/maps/GFUQ2qLoFstCjv849',
+    url: 'https://goo.gl/maps/9NtqtSGMUXTfZjhy7',
     title: 'Location',
     icon: <FaMapMarkerAlt />,
-    text: 'Q-95, KP 2 Jaypee Wish Town, Sector 131, Noida, UP',
+    text: '5th floor ,Dharam sweets, Gali Number 5, Hoshiyarpur, Sector 51, Noida, Uttar Pradesh 201301',
   },
   {
     id: 2,
@@ -53,10 +53,10 @@ export const contactLinks = [
   },
   {
     id: 3,
-    url: 'tel:7982539093',
+    url: 'tel:8800805388',
     title: 'Mobile',
     icon: <FaMobileAlt />,
-    text: '(+91) 7982539093',
+    text: '(+91) 8800805388',
   },
   {
     id: 4,

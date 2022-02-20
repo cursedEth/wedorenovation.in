@@ -4,10 +4,10 @@ import Title from './_Title';
 import SingleReview from './_SingleReview';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { reviews } from '../utils/data';
-//--- import { aboutLinks } from '../utils/constants';
+import { aboutLinks } from '../utils/constants';
 
 // get google reviews url
-//--- const { url, title } = aboutLinks[1];
+const { url, title } = aboutLinks[1];
 
 // *COMPONENTS
 
@@ -64,7 +64,7 @@ const Reviews = () => {
       </div>
 
       {/* g-reviews btn */}
-      {/*--- <a
+      <a
         href={`${url}`}
         className="btn"
         target="_blank"
@@ -72,7 +72,7 @@ const Reviews = () => {
         title={`${title}`}
       >
         view more
-      </a> */}
+      </a>
     </Wrapper>
   );
 };
