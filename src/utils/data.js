@@ -166,28 +166,33 @@ export const services = [
 export const reviews = [
   {
     id: 1,
-    name: 'Ravi Gumber',
-    title: 'Architect',
+    name: 'Riya Saroha',
     image:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/ravi-gumber_rhfjst.webp',
-    text: 'My partner reached out to, and contracted with, these guys for a kitchen improvement project at our apartment in Sector 75, Noida last year. As an architect with many years of personal experience in the construction industry, my partner is a tough customer to please!  Sammer was responsive to our needs, quoted and executed their Scope of Work to perfection, and followed up subsequently to ensure we were happy with the quality of their work. I would recommend them for great customer care and excellent work...',
+    text: `Loved the work!
+    I contacted them online for wallpaper installation. I was impressed by the work so called them again for modular kitchen, false ceiling and interior decoration work. Truly excellent work. Completed it on time. The workers were very professional and polite. Used good quality material. The interior decoration was very unique and beautiful. Will definitely call them for any future work.`,
     stars: 5,
   },
   {
     id: 2,
-    name: 'Kanan Madhav',
-    title: 'Essel Towers Gurugram',
+    name: 'Khushi Sharma',
     image:
       'https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/essel-towers_k9thx5.webp',
-    text: `Great job done by We Do  renovation team I'm really very happy every single person in their team knows their work, very polite and trustworthy people. Work was totally hassle free I didn't even needed to check once I left them working. They will give you the desired result till you are Happy with the results. will definitely recommend them, way to go Sameer`,
+    text: `A friend recommended them to me when I wanted to get my home renovated. I called them and they started the work from next day. So pleased with the work done. My home looks so beautiful and new. Painting was done with perfect finishing. Floor grinding and polishing work was done well too. I am very happy and satisfied. Strongly recommend them for any construction, renovation and designing related works.`,
     stars: 5,
   },
   {
     id: 3,
-    name: 'Mongal Mukherjee',
-    title: 'Electronics Shop Owner',
+    name: 'Aryan Ali',
     image: `https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/mongol_j0ouxt.webp`,
-    text: `If you'd like to work with a painter who sets expectations up front, communicates very well, shows up on time then Sameer's Renovation company is the one. Friendly - definitely hire him if you want someone easy to work with, very pleased.`,
+    text: `I contacted them for wallpaper installation, interior decoration, modular kitchen and False ceiling work. I am really satisfied with the work provided by We do Renovation team and I've given him the whole contract to construct my new home. If you are looking for the best in class and one stop solution for all your home maintenance needs you should consider contacting Sameer. They are really professional guys.`,
+    stars: 5,
+  },
+  {
+    id: 4,
+    name: 'karon anand',
+    image: `https://res.cloudinary.com/dds18bzdy/image/upload/c_scale,w_200/v1629049151/sameer-renovation-website/reviews/mongol_j0ouxt.webp`,
+    text: `I contacted We do Renovation for building my house from scratch  in greater noida,sector - 130. The architectural design I wanted was complex so, many contractors had declined the offer. But we do renovation started the job with ease. It's still a work in progress but I'm sure it will be done before the deadline. I'm sharing some photos of the design I wanted and the current  progress made in building it.`,
     stars: 5,
   },
 ];
