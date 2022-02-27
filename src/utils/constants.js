@@ -12,7 +12,7 @@ import { services } from './data';
 export const aboutLinks = [
   {
     id: 1,
-    url: 'https://g.page/r/CS0QIFzNBUnzEA0',
+    url: 'https://g.page/r/CWCgRvB6oBQmEA0',
     title: 'Visit Google-Business Page',
     text: 'g-business page',
   },

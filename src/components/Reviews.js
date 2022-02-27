@@ -40,8 +40,8 @@ const Reviews = () => {
     <Wrapper className="section">
       {/* title */}
       <Title
-        title="the reviews"
-        description="See what people say about us! Here are a few of the many amazing feedbacks we get every week."
+        title="testimonials”"
+        description="See what people say about us! Here are a few of the many amazing reviews we get from our customers every week."
       />
 
       {/* reviews */}
@@ -105,7 +105,7 @@ const Wrapper = styled.section`
     display: grid;
     place-items: center;
     overflow: hidden;
-    height: 780px;
+    height: 680px;
   }
 
   .prev,
