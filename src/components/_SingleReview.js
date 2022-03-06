@@ -3,15 +3,7 @@ import styled from 'styled-components';
 import { reviews } from '../utils/data';
 import Ratings from './_Ratings';
 
-const SingleReview = ({
-  index,
-  reviewIndex,
-  name,
-  title,
-  image,
-  text,
-  stars,
-}) => {
+const SingleReview = ({ index, reviewIndex, name, image, text, stars }) => {
   // figuring slide positions
   let slidePosition = 'nextSlide';
   if (reviewIndex === index) {
@@ -28,13 +20,14 @@ const SingleReview = ({
   return (
     <Wrapper className={slidePosition}>
       <div className="container">
-        <img src={image} alt={name} className="person-img" loading="lazy" />
-        <div className="review-info">
+        <article className="img-container">
+          <img src={image} alt={name} className="person-img" loading="lazy" />
+        </article>
+        <article className="review-info">
           <Ratings stars={stars} />
-          <p className="text">{text}</p>
-          <h5 className="name">{name}</h5>
-          <h5 className="title">{title}</h5>
-        </div>
+          <p className="text">&#8220;{text}&#8221;</p>
+          <h5 className="name">~ {name}</h5>
+        </article>
       </div>
     </Wrapper>
   );
@@ -89,7 +82,7 @@ const Wrapper = styled.article`
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 3rem 2rem 9rem;
+    padding: 3rem 2rem 12rem;
     text-align: left;
 
     @media (max-width: 792px) {
@@ -106,22 +99,21 @@ const Wrapper = styled.article`
     }
   }
 
+  .img-container {
+    padding: 1rem 0;
+    /* min-width: 50%; */
+  }
+
   img {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
     box-shadow: var(--shadow-3);
-    transform: translateY(-10%);
+    object-fit: cover;
+    height: 17rem;
   }
 
   .name {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 0.5rem;
-  }
-
-  .title {
-    font-style: italic;
   }
 `;
 

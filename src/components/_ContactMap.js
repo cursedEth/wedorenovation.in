@@ -5,7 +5,7 @@ const ContactMap = () => {
   return (
     <MapContainer>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.0330954381066!2d77.36209831507982!3d28.50865198246672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMwJzMxLjIiTiA3N8KwMjEnNTEuNCJF!5e0!3m2!1sen!2sin!4v1629056452534!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24085.132609848763!2d77.35904163974953!3d28.58301703185949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2614a07af046a060!2sWe%20do%20Renovation%20Construction%20%26%20painting%20contractor!5e0!3m2!1sen!2sin!4v1645397555405!5m2!1sen!2sin"
         allowFullScreen
         loading="lazy"
         title="Location on Google Maps"

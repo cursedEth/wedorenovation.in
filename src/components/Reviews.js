@@ -4,10 +4,10 @@ import Title from './_Title';
 import SingleReview from './_SingleReview';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { reviews } from '../utils/data';
-//--- import { aboutLinks } from '../utils/constants';
+import { aboutLinks } from '../utils/constants';
 
 // get google reviews url
-//--- const { url, title } = aboutLinks[1];
+const { url, title } = aboutLinks[1];
 
 // *COMPONENTS
 
@@ -40,8 +40,8 @@ const Reviews = () => {
     <Wrapper className="section">
       {/* title */}
       <Title
-        title="the reviews"
-        description="See what people say about us! Here are a few of the many amazing feedbacks we get every week."
+        title="testimonials”"
+        description="See what people say about us! Here are a few of the many amazing reviews we get from our customers every week."
       />
 
       {/* reviews */}
@@ -64,7 +64,7 @@ const Reviews = () => {
       </div>
 
       {/* g-reviews btn */}
-      {/*--- <a
+      <a
         href={`${url}`}
         className="btn"
         target="_blank"
@@ -72,7 +72,7 @@ const Reviews = () => {
         title={`${title}`}
       >
         view more
-      </a> */}
+      </a>
     </Wrapper>
   );
 };
@@ -105,7 +105,7 @@ const Wrapper = styled.section`
     display: grid;
     place-items: center;
     overflow: hidden;
-    height: 780px;
+    height: 680px;
   }
 
   .prev,

@@ -18,9 +18,10 @@ const Info = () => {
           </p>
           <p>
             In addition to the above mentioned, we provide a large variety of
-            services like <em>decoration</em>, <em>plumbing</em>,{' '}
-            <em>glass work</em>, <em>wood work</em>, etc. to all kinds of
-            houses, offices, apartments, schools, colleges, factories, shops,
+            services like waterproofing, interior decoration, all types of false
+            ceiling and POP work, uPVC/Aluminum and glass work, Modular kitchen
+            and wood work, Plumbing, electrical work and many more to all kinds
+            of houses, offices, apartments, schools, colleges, factories, shops,
             showrooms, and buildings.
           </p>
         </article>
