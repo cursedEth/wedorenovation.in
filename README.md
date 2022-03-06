@@ -50,6 +50,6 @@ To run this project locally, run
 - [x] Replace reviews with google reviews
 - [x] Add a all reviews btn
 - [x] Change reviews to customer testimonials
-- [] Update review images
+- [x] Update review images
 - [] Update gallery images
 - [] Referral and T&C section like home lane's

@@ -25,8 +25,8 @@ const SingleReview = ({ index, reviewIndex, name, image, text, stars }) => {
         </article>
         <article className="review-info">
           <Ratings stars={stars} />
-          <p className="text">{text}</p>
-          <h5 className="name">{name}</h5>
+          <p className="text">&#8220;{text}&#8221;</p>
+          <h5 className="name">~ {name}</h5>
         </article>
       </div>
     </Wrapper>
@@ -107,7 +107,7 @@ const Wrapper = styled.article`
   img {
     box-shadow: var(--shadow-3);
     object-fit: cover;
-    height: 15rem;
+    height: 17rem;
   }
 
   .name {
