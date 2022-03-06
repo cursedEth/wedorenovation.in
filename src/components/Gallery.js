@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import { galleryWorks } from '../utils/data';
 import Title from './_Title';
 import SingleGalleryImage from './_SingleGalleryImage';
+import { aboutLinks } from '../utils/constants';
+
+// get google reviews url
+const { url, title } = aboutLinks[2];
 
 // *COMPONENTS
 const Gallery = () => {
@@ -18,6 +22,18 @@ const Gallery = () => {
           <SingleGalleryImage key={image.id} {...image} />
         ))}
       </div>
+
+      <div className="btn-container">
+        <a
+          href={`${url}`}
+          className="btn"
+          target="_blank"
+          rel="noreferrer"
+          title={`${title}`}
+        >
+          view more
+        </a>
+      </div>
     </Wrapper>
   );
 };
@@ -29,6 +45,20 @@ const Wrapper = styled.section`
 
   .title:hover .title-underline {
     background: var(--backgroundColor);
+  }
+
+  .btn-container {
+    margin: 4rem auto 0;
+    text-align: center;
+
+    .btn {
+      background: transparent;
+      border: 2px solid var(--clr-primary);
+
+      &:hover {
+        background: var(--clr-primary);
+      }
+    }
   }
 
   .gallery-center {

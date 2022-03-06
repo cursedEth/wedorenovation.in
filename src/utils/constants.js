@@ -22,6 +22,12 @@ export const aboutLinks = [
     title: 'Reviews on Google Business',
     text: 'reviews (google)',
   },
+  {
+    id: 3,
+    url: 'https://www.google.com/maps/place/We+do+Renovation+Construction+%26+painting+contractor/@28.5832066,77.3679235,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNqxQUtrZJq6szWHlce8pH7npvD41i7_AOND3KG!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNqxQUtrZJq6szWHlce8pH7npvD41i7_AOND3KG%3Dw530-h298-k-no!7i3643!8i2048!4m7!3m6!1s0x390ce5df460ceac9:0x2614a07af046a060!8m2!3d28.5832066!4d77.3679235!14m1!1BCgIgAQ',
+    title: 'Work Images (Google)',
+    text: 'Photos (google)',
+  },
 ];
 
 // services links

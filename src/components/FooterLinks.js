@@ -108,10 +108,14 @@ const Wrapper = styled.section`
 
   .links-container {
     display: grid;
-    gap: 1.5rem;
+    gap: 2rem;
 
-    @media (min-width: 656px) {
-      grid-template-columns: auto auto auto;
+    div {
+      max-width: 25rem;
+    }
+
+    @media (min-width: 692px) {
+      grid-template-columns: repeat(3, auto);
     }
 
     h5 {
